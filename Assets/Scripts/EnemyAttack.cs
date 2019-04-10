@@ -17,7 +17,7 @@ public class EnemyAttack : MonoBehaviour
     private float range;
     private PlayerMovement playerMovement;
     public GameObject playerObject;
-
+    public GameObject explosion;
 
     void Start()
     {
@@ -58,5 +58,7 @@ public class EnemyAttack : MonoBehaviour
         gameObject.transform.LookAt(player);
         playerMovement = playerObject.GetComponent<PlayerMovement>();
         playerMovement.DestroyPlayer();
+        GameObject inst = Instantiate(explosion, this.transform.position, this.transform.rotation) as GameObject;
+        Destroy(this.gameObject);
     }
 }

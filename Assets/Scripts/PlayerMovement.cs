@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     NavMeshAgent player;
 
-    private float damage = 25;
+    private float damage = 100;
     private float maxHealth = 1000;
     private float currentHealth;
     public Slider HealthBar;
@@ -68,6 +68,13 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public void ApplyDamage(Collider col, int damage)
+    {
+        currentHealth = currentHealth - damage;
+        HealthBar.value = currentHealth;
+        healthText.text = currentHealth.ToString();
+    }
+
     public void ApplyDamageCollision(Collision collision)
     {
         if (currentHealth > 0)
@@ -80,7 +87,7 @@ public class PlayerMovement : MonoBehaviour
         }      
     }
 
-    public void ApplyDamageCollider(Collider collision)
+    public void ApplyTrapDamage(Collider collision)
     {
         if (currentHealth > 0)
         {

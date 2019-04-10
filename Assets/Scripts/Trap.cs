@@ -4,16 +4,25 @@ using UnityEngine;
 
 public class Trap : MonoBehaviour
 {
+    public GameObject explosion;
+    public int damage = 300;
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnTriggerEnter(Collider col)
     {
-        if (collision.tag == "Player" )
+        if (col.tag == "Player")
         {
-            PlayerMovement PlayerTarget = collision.transform.gameObject.GetComponent<PlayerMovement>();
-            if ( PlayerTarget != null)
+            PlayerMovement target = col.transform.gameObject.GetComponent<PlayerMovement>();
+            if (target != null)
             {
-                PlayerTarget.ApplyDamageCollider(collision);
+                target.ApplyDamage(col, damage);
+                Explode();
             }
         }
+    }
+
+    private void Explode()
+    {
+        GameObject inst = Instantiate(explosion, this.transform.position, this.transform.rotation) as GameObject;
+        Destroy(this.gameObject);
     }
 }

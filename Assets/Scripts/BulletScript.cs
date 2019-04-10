@@ -26,12 +26,19 @@ public class BulletScript : MonoBehaviour
         if (collision.gameObject.tag == "enemy" && hasHit == false)
         {
             EnemyMovement enemyTarget = collision.transform.gameObject.GetComponent<EnemyMovement>();
+            NewEnemyScript enemyTargetNew = collision.transform.gameObject.GetComponent<NewEnemyScript>();
+
 
             if (enemyTarget != null)
             {
                 hasHit = true;
                 enemyTarget.ApplyDamage(collision);
 
+            }
+            if (enemyTargetNew != null)
+            {
+                hasHit = true;
+                enemyTargetNew.ApplyDamageCollision(collision);
             }
         }
         if(collision.gameObject.tag == "Player" || hasShoot == false)

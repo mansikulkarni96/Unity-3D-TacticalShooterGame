@@ -45,6 +45,7 @@ public class EnemyShoot : MonoBehaviour
 
     void Update()
     {
+        enemyAnimator.SetBool("isFiring", false);
         if (GameObject.Find("Player") != null){
             distance = enemy.position - player.position;
             distance.y = 0;
