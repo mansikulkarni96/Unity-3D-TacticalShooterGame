@@ -45,7 +45,6 @@ public class Weapon : MonoBehaviour
         {
             print("Button Pressed");
             shoot = true;
-
         }
         if (shoot && !joybutton.Pressed)
         {

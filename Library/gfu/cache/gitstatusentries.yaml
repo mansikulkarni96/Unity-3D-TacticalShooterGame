@@ -13,9 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-04-09T22:54:55.944-04:00
-  initializedAtString: 2019-04-09T22:47:44.488-04:00
+  lastUpdatedAtString: 2019-04-15T11:27:03.532-04:00
+  initializedAtString: 2019-04-15T11:25:56.694-04:00
   entries:
+  - path: .collabignore
+    fullPath: /Users/mateo/Desktop/Navigation/.collabignore
+    projectPath: .collabignore
+    originalPath: 
+    status: 5
+    staged: 0
   - path: .vs/Navigation/xs/sqlite3/storage.ide
     fullPath: /Users/mateo/Desktop/Navigation/.vs/Navigation/xs/sqlite3/storage.ide
     projectPath: .vs/Navigation/xs/sqlite3/storage.ide
@@ -46,833 +52,17 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Aerial Explosion Tutorial.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Aerial Explosion Tutorial.meta
-    projectPath: Assets/Aerial Explosion Tutorial.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Aerial Explosion Tutorial/Explosion 1.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Aerial Explosion Tutorial/Explosion
-      1.mat
-    projectPath: Assets/Aerial Explosion Tutorial/Explosion 1.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Aerial Explosion Tutorial/Explosion 1.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Aerial Explosion Tutorial/Explosion
-      1.mat.meta
-    projectPath: Assets/Aerial Explosion Tutorial/Explosion 1.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Aerial Explosion Tutorial/Rings.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Aerial Explosion Tutorial/Rings.mat
-    projectPath: Assets/Aerial Explosion Tutorial/Rings.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Aerial Explosion Tutorial/Rings.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Aerial Explosion Tutorial/Rings.mat.meta
-    projectPath: Assets/Aerial Explosion Tutorial/Rings.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Aerial Explosion Tutorial/Smoke.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Aerial Explosion Tutorial/Smoke.mat
-    projectPath: Assets/Aerial Explosion Tutorial/Smoke.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Aerial Explosion Tutorial/Smoke.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Aerial Explosion Tutorial/Smoke.mat.meta
-    projectPath: Assets/Aerial Explosion Tutorial/Smoke.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Aerial Explosion Tutorial/Smoke4.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Aerial Explosion Tutorial/Smoke4.mat
-    projectPath: Assets/Aerial Explosion Tutorial/Smoke4.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Aerial Explosion Tutorial/Smoke4.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Aerial Explosion Tutorial/Smoke4.mat.meta
-    projectPath: Assets/Aerial Explosion Tutorial/Smoke4.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Aerial Explosion Tutorial/Spark.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Aerial Explosion Tutorial/Spark.mat
-    projectPath: Assets/Aerial Explosion Tutorial/Spark.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Aerial Explosion Tutorial/Spark.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Aerial Explosion Tutorial/Spark.mat.meta
-    projectPath: Assets/Aerial Explosion Tutorial/Spark.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Animations/PlayerAnimation.controller
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Animations/PlayerAnimation.controller
-    projectPath: Assets/Animations/PlayerAnimation.controller
+  - path: Assembly-CSharp-Editor.csproj
+    fullPath: /Users/mateo/Desktop/Navigation/Assembly-CSharp-Editor.csproj
+    projectPath: Assembly-CSharp-Editor.csproj
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Ball Pack.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack.meta
-    projectPath: Assets/Ball Pack.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models.meta
-    projectPath: Assets/Ball Pack/Models.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/AtomBall.fbx
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/AtomBall.fbx
-    projectPath: Assets/Ball Pack/Models/AtomBall.fbx
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/AtomBall.fbx.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/AtomBall.fbx.meta
-    projectPath: Assets/Ball Pack/Models/AtomBall.fbx.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/BombBall.fbx
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/BombBall.fbx
-    projectPath: Assets/Ball Pack/Models/BombBall.fbx
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/BombBall.fbx.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/BombBall.fbx.meta
-    projectPath: Assets/Ball Pack/Models/BombBall.fbx.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/BuckyBall.fbx
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/BuckyBall.fbx
-    projectPath: Assets/Ball Pack/Models/BuckyBall.fbx
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/BuckyBall.fbx.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/BuckyBall.fbx.meta
-    projectPath: Assets/Ball Pack/Models/BuckyBall.fbx.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/EyeBall.fbx
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/EyeBall.fbx
-    projectPath: Assets/Ball Pack/Models/EyeBall.fbx
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/EyeBall.fbx.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/EyeBall.fbx.meta
-    projectPath: Assets/Ball Pack/Models/EyeBall.fbx.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials.meta
-    projectPath: Assets/Ball Pack/Models/Materials.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/AtomBall-AtomLines.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/AtomBall-AtomLines.mat
-    projectPath: Assets/Ball Pack/Models/Materials/AtomBall-AtomLines.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/AtomBall-AtomLines.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/AtomBall-AtomLines.mat.meta
-    projectPath: Assets/Ball Pack/Models/Materials/AtomBall-AtomLines.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/AtomBall-AtomSphere.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/AtomBall-AtomSphere.mat
-    projectPath: Assets/Ball Pack/Models/Materials/AtomBall-AtomSphere.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/AtomBall-AtomSphere.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/AtomBall-AtomSphere.mat.meta
-    projectPath: Assets/Ball Pack/Models/Materials/AtomBall-AtomSphere.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/AtomBall-No Name.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/AtomBall-No
-      Name.mat
-    projectPath: Assets/Ball Pack/Models/Materials/AtomBall-No Name.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/AtomBall-No Name.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/AtomBall-No
-      Name.mat.meta
-    projectPath: Assets/Ball Pack/Models/Materials/AtomBall-No Name.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/BombBall.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/BombBall.mat
-    projectPath: Assets/Ball Pack/Models/Materials/BombBall.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/BombBall.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/BombBall.mat.meta
-    projectPath: Assets/Ball Pack/Models/Materials/BombBall.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/BuckyBall.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/BuckyBall.mat
-    projectPath: Assets/Ball Pack/Models/Materials/BuckyBall.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/BuckyBall.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/BuckyBall.mat.meta
-    projectPath: Assets/Ball Pack/Models/Materials/BuckyBall.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/BuckyBall-No Name.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/BuckyBall-No
-      Name.mat
-    projectPath: Assets/Ball Pack/Models/Materials/BuckyBall-No Name.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/BuckyBall-No Name.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/BuckyBall-No
-      Name.mat.meta
-    projectPath: Assets/Ball Pack/Models/Materials/BuckyBall-No Name.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/EyeBall.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/EyeBall.mat
-    projectPath: Assets/Ball Pack/Models/Materials/EyeBall.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/EyeBall.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/EyeBall.mat.meta
-    projectPath: Assets/Ball Pack/Models/Materials/EyeBall.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/SpikeBall.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/SpikeBall.mat
-    projectPath: Assets/Ball Pack/Models/Materials/SpikeBall.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/SpikeBall.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/SpikeBall.mat.meta
-    projectPath: Assets/Ball Pack/Models/Materials/SpikeBall.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/SplitMetalBall.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/SplitMetalBall.mat
-    projectPath: Assets/Ball Pack/Models/Materials/SplitMetalBall.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/SplitMetalBall.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/SplitMetalBall.mat.meta
-    projectPath: Assets/Ball Pack/Models/Materials/SplitMetalBall.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/WheelBall.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/WheelBall.mat
-    projectPath: Assets/Ball Pack/Models/Materials/WheelBall.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/WheelBall.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/WheelBall.mat.meta
-    projectPath: Assets/Ball Pack/Models/Materials/WheelBall.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/WoodenBall.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/WoodenBall.mat
-    projectPath: Assets/Ball Pack/Models/Materials/WoodenBall.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Materials/WoodenBall.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Materials/WoodenBall.mat.meta
-    projectPath: Assets/Ball Pack/Models/Materials/WoodenBall.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/SpikeBall.fbx
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/SpikeBall.fbx
-    projectPath: Assets/Ball Pack/Models/SpikeBall.fbx
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/SpikeBall.fbx.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/SpikeBall.fbx.meta
-    projectPath: Assets/Ball Pack/Models/SpikeBall.fbx.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/SplitMetalBall.fbx
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/SplitMetalBall.fbx
-    projectPath: Assets/Ball Pack/Models/SplitMetalBall.fbx
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/SplitMetalBall.fbx.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/SplitMetalBall.fbx.meta
-    projectPath: Assets/Ball Pack/Models/SplitMetalBall.fbx.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures.meta
-    projectPath: Assets/Ball Pack/Models/Textures.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures/BombBall.png
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures/BombBall.png
-    projectPath: Assets/Ball Pack/Models/Textures/BombBall.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures/BombBall.png.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures/BombBall.png.meta
-    projectPath: Assets/Ball Pack/Models/Textures/BombBall.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures/EyeBall.png
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures/EyeBall.png
-    projectPath: Assets/Ball Pack/Models/Textures/EyeBall.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures/EyeBall.png.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures/EyeBall.png.meta
-    projectPath: Assets/Ball Pack/Models/Textures/EyeBall.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures/SpikeBall.png
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures/SpikeBall.png
-    projectPath: Assets/Ball Pack/Models/Textures/SpikeBall.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures/SpikeBall.png.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures/SpikeBall.png.meta
-    projectPath: Assets/Ball Pack/Models/Textures/SpikeBall.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures/SplitMetalBall.png
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures/SplitMetalBall.png
-    projectPath: Assets/Ball Pack/Models/Textures/SplitMetalBall.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures/SplitMetalBall.png.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures/SplitMetalBall.png.meta
-    projectPath: Assets/Ball Pack/Models/Textures/SplitMetalBall.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures/SplitMetalBallEmissive.png
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures/SplitMetalBallEmissive.png
-    projectPath: Assets/Ball Pack/Models/Textures/SplitMetalBallEmissive.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures/SplitMetalBallEmissive.png.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures/SplitMetalBallEmissive.png.meta
-    projectPath: Assets/Ball Pack/Models/Textures/SplitMetalBallEmissive.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures/WheelBall.png
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures/WheelBall.png
-    projectPath: Assets/Ball Pack/Models/Textures/WheelBall.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures/WheelBall.png.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures/WheelBall.png.meta
-    projectPath: Assets/Ball Pack/Models/Textures/WheelBall.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures/WheelBallEmissive.png
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures/WheelBallEmissive.png
-    projectPath: Assets/Ball Pack/Models/Textures/WheelBallEmissive.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures/WheelBallEmissive.png.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures/WheelBallEmissive.png.meta
-    projectPath: Assets/Ball Pack/Models/Textures/WheelBallEmissive.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures/WoodenBall.png
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures/WoodenBall.png
-    projectPath: Assets/Ball Pack/Models/Textures/WoodenBall.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/Textures/WoodenBall.png.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/Textures/WoodenBall.png.meta
-    projectPath: Assets/Ball Pack/Models/Textures/WoodenBall.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/WheelBall.fbx
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/WheelBall.fbx
-    projectPath: Assets/Ball Pack/Models/WheelBall.fbx
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/WheelBall.fbx.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/WheelBall.fbx.meta
-    projectPath: Assets/Ball Pack/Models/WheelBall.fbx.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/WoodenBall.fbx
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/WoodenBall.fbx
-    projectPath: Assets/Ball Pack/Models/WoodenBall.fbx
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Models/WoodenBall.fbx.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Models/WoodenBall.fbx.meta
-    projectPath: Assets/Ball Pack/Models/WoodenBall.fbx.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Showcase.unity
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Showcase.unity
-    projectPath: Assets/Ball Pack/Showcase.unity
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Ball Pack/Showcase.unity.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Ball Pack/Showcase.unity.meta
-    projectPath: Assets/Ball Pack/Showcase.unity.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum.meta
-    projectPath: Assets/PopupAsylum.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_CubeMaps.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_CubeMaps.meta
-    projectPath: Assets/PopupAsylum/PA_CubeMaps.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalCubemap.cubemap
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalCubemap.cubemap
-    projectPath: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalCubemap.cubemap
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalCubemap.cubemap.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalCubemap.cubemap.meta
-    projectPath: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalCubemap.cubemap.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalxDownLeft.tif
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalxDownLeft.tif
-    projectPath: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalxDownLeft.tif
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalxDownLeft.tif.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalxDownLeft.tif.meta
-    projectPath: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalxDownLeft.tif.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalxUpRight.tif
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalxUpRight.tif
-    projectPath: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalxUpRight.tif
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalxUpRight.tif.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalxUpRight.tif.meta
-    projectPath: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalxUpRight.tif.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalyDownBottom.tif
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalyDownBottom.tif
-    projectPath: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalyDownBottom.tif
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalyDownBottom.tif.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalyDownBottom.tif.meta
-    projectPath: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalyDownBottom.tif.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalyUpTop.tif
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalyUpTop.tif
-    projectPath: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalyUpTop.tif
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalyUpTop.tif.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalyUpTop.tif.meta
-    projectPath: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalyUpTop.tif.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalzDownBack.tif
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalzDownBack.tif
-    projectPath: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalzDownBack.tif
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalzDownBack.tif.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalzDownBack.tif.meta
-    projectPath: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalzDownBack.tif.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalzUpFront.tif
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalzUpFront.tif
-    projectPath: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalzUpFront.tif
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalzUpFront.tif.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalzUpFront.tif.meta
-    projectPath: Assets/PopupAsylum/PA_CubeMaps/PA_BrushedMetalzUpFront.tif.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/Materials.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/Materials.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/Materials.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/Materials/PA_DroneMat.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/Materials/PA_DroneMat.mat
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/Materials/PA_DroneMat.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/Materials/PA_DroneMat.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/Materials/PA_DroneMat.mat.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/Materials/PA_DroneMat.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/Materials/PA_WarriorMat.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/Materials/PA_WarriorMat.mat
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/Materials/PA_WarriorMat.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/Materials/PA_WarriorMat.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/Materials/PA_WarriorMat.mat.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/Materials/PA_WarriorMat.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/PA_Drone.fbx
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/PA_Drone.fbx
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/PA_Drone.fbx
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/PA_Drone.fbx.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/PA_Drone.fbx.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/PA_Drone.fbx.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/PA_Warrior.fbx
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/PA_Warrior.fbx
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/PA_Warrior.fbx
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/PA_Warrior.fbx.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/PA_Warrior.fbx.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Characters/PA_Warrior.fbx.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_ArchfireTankMat.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_ArchfireTankMat.mat
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_ArchfireTankMat.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_ArchfireTankMat.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_ArchfireTankMat.mat.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_ArchfireTankMat.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_ArchlightBomberMat.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_ArchlightBomberMat.mat
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_ArchlightBomberMat.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_ArchlightBomberMat.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_ArchlightBomberMat.mat.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_ArchlightBomberMat.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_DropPodMat.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_DropPodMat.mat
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_DropPodMat.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_DropPodMat.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_DropPodMat.mat.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/Materials/PA_DropPodMat.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_ArchfireTank.fbx
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_ArchfireTank.fbx
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_ArchfireTank.fbx
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_ArchfireTank.fbx.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_ArchfireTank.fbx.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_ArchfireTank.fbx.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_ArchlightBomber.fbx
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_ArchlightBomber.fbx
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_ArchlightBomber.fbx
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_ArchlightBomber.fbx.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_ArchlightBomber.fbx.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_ArchlightBomber.fbx.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_DropPod.fbx
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_DropPod.fbx
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_DropPod.fbx
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_DropPod.fbx.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_DropPod.fbx.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/_Imported3D/Vehicles/PA_DropPod.fbx.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_DroneDiff.psd
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_DroneDiff.psd
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_DroneDiff.psd
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_DroneDiff.psd.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_DroneDiff.psd.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_DroneDiff.psd.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_DroneNorm.png
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_DroneNorm.png
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_DroneNorm.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_DroneNorm.png.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_DroneNorm.png.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_DroneNorm.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_WarriorDiff.psd
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_WarriorDiff.psd
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_WarriorDiff.psd
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_WarriorDiff.psd.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_WarriorDiff.psd.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_WarriorDiff.psd.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_WarriorNorm.png
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_WarriorNorm.png
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_WarriorNorm.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_WarriorNorm.png.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_WarriorNorm.png.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Characters/PA_WarriorNorm.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchfireTankDiff.psd
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchfireTankDiff.psd
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchfireTankDiff.psd
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchfireTankDiff.psd.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchfireTankDiff.psd.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchfireTankDiff.psd.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchfireTankNorm.png
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchfireTankNorm.png
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchfireTankNorm.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchfireTankNorm.png.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchfireTankNorm.png.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchfireTankNorm.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchlightBomberDiff.psd
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchlightBomberDiff.psd
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchlightBomberDiff.psd
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchlightBomberDiff.psd.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchlightBomberDiff.psd.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchlightBomberDiff.psd.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchlightBomberNorm.png
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchlightBomberNorm.png
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchlightBomberNorm.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchlightBomberNorm.png.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchlightBomberNorm.png.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_ArchlightBomberNorm.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_DropPodDiff.psd
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_DropPodDiff.psd
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_DropPodDiff.psd
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_DropPodDiff.psd.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_DropPodDiff.psd.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/PA_DropPodDiff.psd.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/Pa_DropPodNorm.png
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/Pa_DropPodNorm.png
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/Pa_DropPodNorm.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/Pa_DropPodNorm.png.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/Pa_DropPodNorm.png.meta
-    projectPath: Assets/PopupAsylum/PA_SciFiCombatants/Textures/Vehicles/Pa_DropPodNorm.png.meta
-    originalPath: 
-    status: 1
+  - path: Assets/BulletPrefab.prefab
+    fullPath: /Users/mateo/Desktop/Navigation/Assets/BulletPrefab.prefab
+    projectPath: Assets/BulletPrefab.prefab
+    originalPath: 
+    status: 3
     staged: 0
   - path: Assets/Scenes/Game.unity
     fullPath: /Users/mateo/Desktop/Navigation/Assets/Scenes/Game.unity
@@ -880,11 +70,17 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scenes/Game/NavMesh.asset
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scenes/Game/NavMesh.asset
-    projectPath: Assets/Scenes/Game/NavMesh.asset
+  - path: Assets/Scripts/Agent.cs
+    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/Agent.cs
+    projectPath: Assets/Scripts/Agent.cs
     originalPath: 
-    status: 3
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/Agent.cs.meta
+    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/Agent.cs.meta
+    projectPath: Assets/Scripts/Agent.cs.meta
+    originalPath: 
+    status: 1
     staged: 0
   - path: Assets/Scripts/BulletScript.cs
     fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/BulletScript.cs
@@ -892,59 +88,47 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scripts/EnemyAttack.cs
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/EnemyAttack.cs
-    projectPath: Assets/Scripts/EnemyAttack.cs
+  - path: Assets/Scripts/EnemyMovement.cs
+    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/EnemyMovement.cs
+    projectPath: Assets/Scripts/EnemyMovement.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scripts/EnemyShoot.cs
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/EnemyShoot.cs
-    projectPath: Assets/Scripts/EnemyShoot.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/LocalNavMeshBuilder.cs
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/LocalNavMeshBuilder.cs
-    projectPath: Assets/Scripts/LocalNavMeshBuilder.cs
+  - path: Assets/Scripts/GameController.cs
+    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/GameController.cs
+    projectPath: Assets/Scripts/GameController.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Scripts/LocalNavMeshBuilder.cs.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/LocalNavMeshBuilder.cs.meta
-    projectPath: Assets/Scripts/LocalNavMeshBuilder.cs.meta
+  - path: Assets/Scripts/GameController.cs.meta
+    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/GameController.cs.meta
+    projectPath: Assets/Scripts/GameController.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Scripts/NavMeshSourceTag.cs
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/NavMeshSourceTag.cs
-    projectPath: Assets/Scripts/NavMeshSourceTag.cs
+  - path: Assets/Scripts/Player.cs
+    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/Player.cs
+    projectPath: Assets/Scripts/Player.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Scripts/NavMeshSourceTag.cs.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/NavMeshSourceTag.cs.meta
-    projectPath: Assets/Scripts/NavMeshSourceTag.cs.meta
+  - path: Assets/Scripts/Player.cs.meta
+    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/Player.cs.meta
+    projectPath: Assets/Scripts/Player.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Scripts/NewEnemyScript.cs
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/NewEnemyScript.cs
-    projectPath: Assets/Scripts/NewEnemyScript.cs
+  - path: Assets/Scripts/ShooterEnemy.cs
+    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/ShooterEnemy.cs
+    projectPath: Assets/Scripts/ShooterEnemy.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Scripts/NewEnemyScript.cs.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/NewEnemyScript.cs.meta
-    projectPath: Assets/Scripts/NewEnemyScript.cs.meta
+  - path: Assets/Scripts/ShooterEnemy.cs.meta
+    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/ShooterEnemy.cs.meta
+    projectPath: Assets/Scripts/ShooterEnemy.cs.meta
     originalPath: 
     status: 1
-    staged: 0
-  - path: Assets/Scripts/PlayerMovement.cs
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/PlayerMovement.cs
-    projectPath: Assets/Scripts/PlayerMovement.cs
-    originalPath: 
-    status: 3
     staged: 0
   - path: Assets/Scripts/Trap.cs
     fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/Trap.cs
@@ -952,113 +136,11 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scripts/Wander.cs
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/Wander.cs
-    projectPath: Assets/Scripts/Wander.cs
+  - path: Assets/Scripts/Weapon.cs
+    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/Weapon.cs
+    projectPath: Assets/Scripts/Weapon.cs
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scripts/Wander.cs.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Scripts/Wander.cs.meta
-    projectPath: Assets/Scripts/Wander.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Sky.mat
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Sky.mat
-    projectPath: Assets/Sky.mat
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets/Sky.mat.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Sky.mat.meta
-    projectPath: Assets/Sky.mat.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets/Standard Assets.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Standard Assets.meta
-    projectPath: Assets/Standard Assets.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Standard Assets/Particles.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Standard Assets/Particles.meta
-    projectPath: Assets/Standard Assets/Particles.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Standard Assets/Particles/Sources.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Standard Assets/Particles/Sources.meta
-    projectPath: Assets/Standard Assets/Particles/Sources.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Standard Assets/Particles/Sources/Textures.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Standard Assets/Particles/Sources/Textures.meta
-    projectPath: Assets/Standard Assets/Particles/Sources/Textures.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Standard Assets/Particles/Sources/Textures/smoke.tif
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Standard Assets/Particles/Sources/Textures/smoke.tif
-    projectPath: Assets/Standard Assets/Particles/Sources/Textures/smoke.tif
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Standard Assets/Particles/Sources/Textures/smoke.tif.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Standard Assets/Particles/Sources/Textures/smoke.tif.meta
-    projectPath: Assets/Standard Assets/Particles/Sources/Textures/smoke.tif.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Standard Assets/Particles/Sources/Textures/smoke3.tif
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Standard Assets/Particles/Sources/Textures/smoke3.tif
-    projectPath: Assets/Standard Assets/Particles/Sources/Textures/smoke3.tif
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Standard Assets/Particles/Sources/Textures/smoke3.tif.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Standard Assets/Particles/Sources/Textures/smoke3.tif.meta
-    projectPath: Assets/Standard Assets/Particles/Sources/Textures/smoke3.tif.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Standard Assets/Particles/Sources/Textures/smoke4.tif
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Standard Assets/Particles/Sources/Textures/smoke4.tif
-    projectPath: Assets/Standard Assets/Particles/Sources/Textures/smoke4.tif
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Standard Assets/Particles/Sources/Textures/smoke4.tif.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Standard Assets/Particles/Sources/Textures/smoke4.tif.meta
-    projectPath: Assets/Standard Assets/Particles/Sources/Textures/smoke4.tif.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Standard Assets/Particles/Sources/Textures/spark.tif
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Standard Assets/Particles/Sources/Textures/spark.tif
-    projectPath: Assets/Standard Assets/Particles/Sources/Textures/spark.tif
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Standard Assets/Particles/Sources/Textures/spark.tif.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Standard Assets/Particles/Sources/Textures/spark.tif.meta
-    projectPath: Assets/Standard Assets/Particles/Sources/Textures/spark.tif.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Trap Explosion.prefab
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Trap Explosion.prefab
-    projectPath: Assets/Trap Explosion.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Trap Explosion.prefab.meta
-    fullPath: /Users/mateo/Desktop/Navigation/Assets/Trap Explosion.prefab.meta
-    projectPath: Assets/Trap Explosion.prefab.meta
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/mateo/Desktop/Navigation/Library/assetDatabase3
@@ -1066,17 +148,11 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/Collab/CollabSnapshot_b9aa03e3-7745-4e69-af44-d5656b0d99ae.txt
-    fullPath: /Users/mateo/Desktop/Navigation/Library/Collab/CollabSnapshot_b9aa03e3-7745-4e69-af44-d5656b0d99ae.txt
-    projectPath: Library/Collab/CollabSnapshot_b9aa03e3-7745-4e69-af44-d5656b0d99ae.txt
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library/CrashedAssetImports.txt
     fullPath: /Users/mateo/Desktop/Navigation/Library/CrashedAssetImports.txt
     projectPath: Library/CrashedAssetImports.txt
     originalPath: 
-    status: 5
+    status: 1
     staged: 0
   - path: Library/CurrentLayout.dwlt
     fullPath: /Users/mateo/Desktop/Navigation/Library/CurrentLayout.dwlt
@@ -1084,11 +160,17 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library/CurrentMaximizeLayout.dwlt
+    fullPath: /Users/mateo/Desktop/Navigation/Library/CurrentMaximizeLayout.dwlt
+    projectPath: Library/CurrentMaximizeLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library/EditorInstance.json
     fullPath: /Users/mateo/Desktop/Navigation/Library/EditorInstance.json
     projectPath: Library/EditorInstance.json
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
   - path: Library/expandedItems
     fullPath: /Users/mateo/Desktop/Navigation/Library/expandedItems
@@ -1100,229 +182,31 @@ MonoBehaviour:
     fullPath: /Users/mateo/Desktop/Navigation/Library/gfu/cache/gitlocks.yaml
     projectPath: Library/gfu/cache/gitlocks.yaml
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Library/gfu/cache/gitstatusentries.yaml
     fullPath: /Users/mateo/Desktop/Navigation/Library/gfu/cache/gitstatusentries.yaml
     projectPath: Library/gfu/cache/gitstatusentries.yaml
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Library/gfu/cache/gittrackingstatus.yaml
     fullPath: /Users/mateo/Desktop/Navigation/Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Library/gfu/cache/repoinfo.yaml
     fullPath: /Users/mateo/Desktop/Navigation/Library/gfu/cache/repoinfo.yaml
     projectPath: Library/gfu/cache/repoinfo.yaml
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Library/InspectorExpandedItems.asset
     fullPath: /Users/mateo/Desktop/Navigation/Library/InspectorExpandedItems.asset
     projectPath: Library/InspectorExpandedItems.asset
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000004100000000000000
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/00/00000000000000004100000000000000
-    projectPath: Library/metadata/00/00000000000000004100000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00f7a08788dfa437b96a1d2e42286d67
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/00/00f7a08788dfa437b96a1d2e42286d67
-    projectPath: Library/metadata/00/00f7a08788dfa437b96a1d2e42286d67
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/00/00f7a08788dfa437b96a1d2e42286d67.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/00/00f7a08788dfa437b96a1d2e42286d67.info
-    projectPath: Library/metadata/00/00f7a08788dfa437b96a1d2e42286d67.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/01/01b2c033f59bc0f40939edd7beba09b8
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/01/01b2c033f59bc0f40939edd7beba09b8
-    projectPath: Library/metadata/01/01b2c033f59bc0f40939edd7beba09b8
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/01/01b2c033f59bc0f40939edd7beba09b8.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/01/01b2c033f59bc0f40939edd7beba09b8.info
-    projectPath: Library/metadata/01/01b2c033f59bc0f40939edd7beba09b8.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/03/031501c1b2b84414d819f1b449251dd4
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/03/031501c1b2b84414d819f1b449251dd4
-    projectPath: Library/metadata/03/031501c1b2b84414d819f1b449251dd4
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/03/031501c1b2b84414d819f1b449251dd4.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/03/031501c1b2b84414d819f1b449251dd4.info
-    projectPath: Library/metadata/03/031501c1b2b84414d819f1b449251dd4.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/05/056d79484fff9e84dafaa83f1d7ccbb1
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/05/056d79484fff9e84dafaa83f1d7ccbb1
-    projectPath: Library/metadata/05/056d79484fff9e84dafaa83f1d7ccbb1
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/05/056d79484fff9e84dafaa83f1d7ccbb1.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/05/056d79484fff9e84dafaa83f1d7ccbb1.info
-    projectPath: Library/metadata/05/056d79484fff9e84dafaa83f1d7ccbb1.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/08/08e0adada0841fa4ca78a348bf4f06ce
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/08/08e0adada0841fa4ca78a348bf4f06ce
-    projectPath: Library/metadata/08/08e0adada0841fa4ca78a348bf4f06ce
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/08/08e0adada0841fa4ca78a348bf4f06ce.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/08/08e0adada0841fa4ca78a348bf4f06ce.info
-    projectPath: Library/metadata/08/08e0adada0841fa4ca78a348bf4f06ce.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/08/08f28e42a647e2a4cbd32e793359aa3c
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/08/08f28e42a647e2a4cbd32e793359aa3c
-    projectPath: Library/metadata/08/08f28e42a647e2a4cbd32e793359aa3c
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/08/08f28e42a647e2a4cbd32e793359aa3c.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/08/08f28e42a647e2a4cbd32e793359aa3c.info
-    projectPath: Library/metadata/08/08f28e42a647e2a4cbd32e793359aa3c.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/0d/0d37d29c7c3434be78b9f1219698620b
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/0d/0d37d29c7c3434be78b9f1219698620b
-    projectPath: Library/metadata/0d/0d37d29c7c3434be78b9f1219698620b
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/0d/0d37d29c7c3434be78b9f1219698620b.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/0d/0d37d29c7c3434be78b9f1219698620b.info
-    projectPath: Library/metadata/0d/0d37d29c7c3434be78b9f1219698620b.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/0f/0fa8196a2643b488285c051e503b5ace
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/0f/0fa8196a2643b488285c051e503b5ace
-    projectPath: Library/metadata/0f/0fa8196a2643b488285c051e503b5ace
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/0f/0fa8196a2643b488285c051e503b5ace.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/0f/0fa8196a2643b488285c051e503b5ace.info
-    projectPath: Library/metadata/0f/0fa8196a2643b488285c051e503b5ace.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/10/10de05c980d6a1f498aede8ba6ec9721
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/10/10de05c980d6a1f498aede8ba6ec9721
-    projectPath: Library/metadata/10/10de05c980d6a1f498aede8ba6ec9721
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/10/10de05c980d6a1f498aede8ba6ec9721.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/10/10de05c980d6a1f498aede8ba6ec9721.info
-    projectPath: Library/metadata/10/10de05c980d6a1f498aede8ba6ec9721.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/11/113210d8e0cf74b3387dfc86b31ab8a7
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/11/113210d8e0cf74b3387dfc86b31ab8a7
-    projectPath: Library/metadata/11/113210d8e0cf74b3387dfc86b31ab8a7
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/11/113210d8e0cf74b3387dfc86b31ab8a7.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/11/113210d8e0cf74b3387dfc86b31ab8a7.info
-    projectPath: Library/metadata/11/113210d8e0cf74b3387dfc86b31ab8a7.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/14/145914066afeadc48815a73e4b263190
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/14/145914066afeadc48815a73e4b263190
-    projectPath: Library/metadata/14/145914066afeadc48815a73e4b263190
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/14/145914066afeadc48815a73e4b263190.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/14/145914066afeadc48815a73e4b263190.info
-    projectPath: Library/metadata/14/145914066afeadc48815a73e4b263190.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/1b/1be1e9160fb8341098266d583dd51f9d
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/1b/1be1e9160fb8341098266d583dd51f9d
-    projectPath: Library/metadata/1b/1be1e9160fb8341098266d583dd51f9d
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/1b/1be1e9160fb8341098266d583dd51f9d.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/1b/1be1e9160fb8341098266d583dd51f9d.info
-    projectPath: Library/metadata/1b/1be1e9160fb8341098266d583dd51f9d.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/1c/1cb25b01297051041a96c363afa2502b
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/1c/1cb25b01297051041a96c363afa2502b
-    projectPath: Library/metadata/1c/1cb25b01297051041a96c363afa2502b
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/1c/1cb25b01297051041a96c363afa2502b.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/1c/1cb25b01297051041a96c363afa2502b.info
-    projectPath: Library/metadata/1c/1cb25b01297051041a96c363afa2502b.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/1e/1e6df0c7d0f3d46a38c53cb1ac5729d3
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/1e/1e6df0c7d0f3d46a38c53cb1ac5729d3
-    projectPath: Library/metadata/1e/1e6df0c7d0f3d46a38c53cb1ac5729d3
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/1e/1e6df0c7d0f3d46a38c53cb1ac5729d3.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/1e/1e6df0c7d0f3d46a38c53cb1ac5729d3.info
-    projectPath: Library/metadata/1e/1e6df0c7d0f3d46a38c53cb1ac5729d3.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/21/21872fa9b62fb1b43a24e3a3ea2d0046
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/21/21872fa9b62fb1b43a24e3a3ea2d0046
-    projectPath: Library/metadata/21/21872fa9b62fb1b43a24e3a3ea2d0046
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/21/21872fa9b62fb1b43a24e3a3ea2d0046.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/21/21872fa9b62fb1b43a24e3a3ea2d0046.info
-    projectPath: Library/metadata/21/21872fa9b62fb1b43a24e3a3ea2d0046.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/22/22f66b8ef102e2542bdbfd5d406cb21d
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/22/22f66b8ef102e2542bdbfd5d406cb21d
-    projectPath: Library/metadata/22/22f66b8ef102e2542bdbfd5d406cb21d
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/22/22f66b8ef102e2542bdbfd5d406cb21d.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/22/22f66b8ef102e2542bdbfd5d406cb21d.info
-    projectPath: Library/metadata/22/22f66b8ef102e2542bdbfd5d406cb21d.info
-    originalPath: 
-    status: 1
     staged: 0
   - path: Library/metadata/31/31d601ae043682740adc65eebbc05c6e
     fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/31/31d601ae043682740adc65eebbc05c6e
@@ -1336,917 +220,71 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/metadata/37/377c3cf1f1f3942c190670865b2ea5a2
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/37/377c3cf1f1f3942c190670865b2ea5a2
-    projectPath: Library/metadata/37/377c3cf1f1f3942c190670865b2ea5a2
+  - path: Library/metadata/4b/4b4a251009e364111a9804b524ff17f0
+    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/4b/4b4a251009e364111a9804b524ff17f0
+    projectPath: Library/metadata/4b/4b4a251009e364111a9804b524ff17f0
     originalPath: 
     status: 1
     staged: 0
-  - path: Library/metadata/37/377c3cf1f1f3942c190670865b2ea5a2.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/37/377c3cf1f1f3942c190670865b2ea5a2.info
-    projectPath: Library/metadata/37/377c3cf1f1f3942c190670865b2ea5a2.info
+  - path: Library/metadata/4b/4b4a251009e364111a9804b524ff17f0.info
+    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/4b/4b4a251009e364111a9804b524ff17f0.info
+    projectPath: Library/metadata/4b/4b4a251009e364111a9804b524ff17f0.info
     originalPath: 
     status: 1
     staged: 0
-  - path: Library/metadata/38/38972d9a807375f4fbdbf2e076aa183f
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/38/38972d9a807375f4fbdbf2e076aa183f
-    projectPath: Library/metadata/38/38972d9a807375f4fbdbf2e076aa183f
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/38/38972d9a807375f4fbdbf2e076aa183f.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/38/38972d9a807375f4fbdbf2e076aa183f.info
-    projectPath: Library/metadata/38/38972d9a807375f4fbdbf2e076aa183f.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/3d/3de05689353fe40bca3497a382bdd547
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/3d/3de05689353fe40bca3497a382bdd547
-    projectPath: Library/metadata/3d/3de05689353fe40bca3497a382bdd547
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/3d/3de05689353fe40bca3497a382bdd547.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/3d/3de05689353fe40bca3497a382bdd547.info
-    projectPath: Library/metadata/3d/3de05689353fe40bca3497a382bdd547.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/40/40db05b0756f19c43ae471505d9b8ce5
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/40/40db05b0756f19c43ae471505d9b8ce5
-    projectPath: Library/metadata/40/40db05b0756f19c43ae471505d9b8ce5
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/40/40db05b0756f19c43ae471505d9b8ce5.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/40/40db05b0756f19c43ae471505d9b8ce5.info
-    projectPath: Library/metadata/40/40db05b0756f19c43ae471505d9b8ce5.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/41/41ee4aa6941357843822fc337711ff1a
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/41/41ee4aa6941357843822fc337711ff1a
-    projectPath: Library/metadata/41/41ee4aa6941357843822fc337711ff1a
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/41/41ee4aa6941357843822fc337711ff1a.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/41/41ee4aa6941357843822fc337711ff1a.info
-    projectPath: Library/metadata/41/41ee4aa6941357843822fc337711ff1a.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/43/432ddb46c7ed34734be92d38b2bc5e3d
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/43/432ddb46c7ed34734be92d38b2bc5e3d
-    projectPath: Library/metadata/43/432ddb46c7ed34734be92d38b2bc5e3d
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/43/432ddb46c7ed34734be92d38b2bc5e3d.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/43/432ddb46c7ed34734be92d38b2bc5e3d.info
-    projectPath: Library/metadata/43/432ddb46c7ed34734be92d38b2bc5e3d.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/49/49051a339f81440d4bf564786798450c
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/49/49051a339f81440d4bf564786798450c
-    projectPath: Library/metadata/49/49051a339f81440d4bf564786798450c
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/49/49051a339f81440d4bf564786798450c.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/49/49051a339f81440d4bf564786798450c.info
-    projectPath: Library/metadata/49/49051a339f81440d4bf564786798450c.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/49/49c3b803d5c3f104e811db37a73ec863
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/49/49c3b803d5c3f104e811db37a73ec863
-    projectPath: Library/metadata/49/49c3b803d5c3f104e811db37a73ec863
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/49/49c3b803d5c3f104e811db37a73ec863.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/49/49c3b803d5c3f104e811db37a73ec863.info
-    projectPath: Library/metadata/49/49c3b803d5c3f104e811db37a73ec863.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/4a/4a1142b17f64bbc40871f76529421f77
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/4a/4a1142b17f64bbc40871f76529421f77
-    projectPath: Library/metadata/4a/4a1142b17f64bbc40871f76529421f77
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/4a/4a1142b17f64bbc40871f76529421f77.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/4a/4a1142b17f64bbc40871f76529421f77.info
-    projectPath: Library/metadata/4a/4a1142b17f64bbc40871f76529421f77.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/4b/4b6227d1d921d404983b7435e09b8922
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/4b/4b6227d1d921d404983b7435e09b8922
-    projectPath: Library/metadata/4b/4b6227d1d921d404983b7435e09b8922
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/4b/4b6227d1d921d404983b7435e09b8922.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/4b/4b6227d1d921d404983b7435e09b8922.info
-    projectPath: Library/metadata/4b/4b6227d1d921d404983b7435e09b8922.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/4c/4c6ea6940a355434eb03c9c271744eca
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/4c/4c6ea6940a355434eb03c9c271744eca
-    projectPath: Library/metadata/4c/4c6ea6940a355434eb03c9c271744eca
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/4c/4c6ea6940a355434eb03c9c271744eca.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/4c/4c6ea6940a355434eb03c9c271744eca.info
-    projectPath: Library/metadata/4c/4c6ea6940a355434eb03c9c271744eca.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/53/53b77552ce4ba0244ad32e073f04ccee
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/53/53b77552ce4ba0244ad32e073f04ccee
-    projectPath: Library/metadata/53/53b77552ce4ba0244ad32e073f04ccee
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/53/53b77552ce4ba0244ad32e073f04ccee.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/53/53b77552ce4ba0244ad32e073f04ccee.info
-    projectPath: Library/metadata/53/53b77552ce4ba0244ad32e073f04ccee.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/53/53fa4c67610d548768a6ff10b5f7edbd
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/53/53fa4c67610d548768a6ff10b5f7edbd
-    projectPath: Library/metadata/53/53fa4c67610d548768a6ff10b5f7edbd
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/53/53fa4c67610d548768a6ff10b5f7edbd.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/53/53fa4c67610d548768a6ff10b5f7edbd.info
-    projectPath: Library/metadata/53/53fa4c67610d548768a6ff10b5f7edbd.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/57/574a32f1fd43e0e498988286b3eeb64b
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/57/574a32f1fd43e0e498988286b3eeb64b
-    projectPath: Library/metadata/57/574a32f1fd43e0e498988286b3eeb64b
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/57/574a32f1fd43e0e498988286b3eeb64b.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/57/574a32f1fd43e0e498988286b3eeb64b.info
-    projectPath: Library/metadata/57/574a32f1fd43e0e498988286b3eeb64b.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/5a/5ae1b6d4c894f9c449d33837a633a8ec
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/5a/5ae1b6d4c894f9c449d33837a633a8ec
-    projectPath: Library/metadata/5a/5ae1b6d4c894f9c449d33837a633a8ec
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/5a/5ae1b6d4c894f9c449d33837a633a8ec.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/5a/5ae1b6d4c894f9c449d33837a633a8ec.info
-    projectPath: Library/metadata/5a/5ae1b6d4c894f9c449d33837a633a8ec.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/5c/5c353f7057da35640bdff38d63dda4d8
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/5c/5c353f7057da35640bdff38d63dda4d8
-    projectPath: Library/metadata/5c/5c353f7057da35640bdff38d63dda4d8
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/5c/5c353f7057da35640bdff38d63dda4d8.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/5c/5c353f7057da35640bdff38d63dda4d8.info
-    projectPath: Library/metadata/5c/5c353f7057da35640bdff38d63dda4d8.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/5d/5dc491cb5b0776f42b85045d3c78ec6e
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/5d/5dc491cb5b0776f42b85045d3c78ec6e
-    projectPath: Library/metadata/5d/5dc491cb5b0776f42b85045d3c78ec6e
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/5d/5dc491cb5b0776f42b85045d3c78ec6e.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/5d/5dc491cb5b0776f42b85045d3c78ec6e.info
-    projectPath: Library/metadata/5d/5dc491cb5b0776f42b85045d3c78ec6e.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/5f/5f603b8c73c81724b9bdc1c65764eb4c
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/5f/5f603b8c73c81724b9bdc1c65764eb4c
-    projectPath: Library/metadata/5f/5f603b8c73c81724b9bdc1c65764eb4c
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/5f/5f603b8c73c81724b9bdc1c65764eb4c.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/5f/5f603b8c73c81724b9bdc1c65764eb4c.info
-    projectPath: Library/metadata/5f/5f603b8c73c81724b9bdc1c65764eb4c.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/61/61566139d5c1f844aaa682fa50106e58
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/61/61566139d5c1f844aaa682fa50106e58
-    projectPath: Library/metadata/61/61566139d5c1f844aaa682fa50106e58
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/61/61566139d5c1f844aaa682fa50106e58.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/61/61566139d5c1f844aaa682fa50106e58.info
-    projectPath: Library/metadata/61/61566139d5c1f844aaa682fa50106e58.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/65/650fa06661e92af4b956f6d247e8acc9
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/65/650fa06661e92af4b956f6d247e8acc9
-    projectPath: Library/metadata/65/650fa06661e92af4b956f6d247e8acc9
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/65/650fa06661e92af4b956f6d247e8acc9.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/65/650fa06661e92af4b956f6d247e8acc9.info
-    projectPath: Library/metadata/65/650fa06661e92af4b956f6d247e8acc9.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/6a/6a15b1f15432b6f4b9a8066e1e6ca4df
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/6a/6a15b1f15432b6f4b9a8066e1e6ca4df
-    projectPath: Library/metadata/6a/6a15b1f15432b6f4b9a8066e1e6ca4df
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/6a/6a15b1f15432b6f4b9a8066e1e6ca4df.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/6a/6a15b1f15432b6f4b9a8066e1e6ca4df.info
-    projectPath: Library/metadata/6a/6a15b1f15432b6f4b9a8066e1e6ca4df.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/6b/6b7e593dfc12da943ac7d750ffb6c025
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/6b/6b7e593dfc12da943ac7d750ffb6c025
-    projectPath: Library/metadata/6b/6b7e593dfc12da943ac7d750ffb6c025
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/6b/6b7e593dfc12da943ac7d750ffb6c025.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/6b/6b7e593dfc12da943ac7d750ffb6c025.info
-    projectPath: Library/metadata/6b/6b7e593dfc12da943ac7d750ffb6c025.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/6b/6baf704df9aa55046a9553124c407683
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/6b/6baf704df9aa55046a9553124c407683
-    projectPath: Library/metadata/6b/6baf704df9aa55046a9553124c407683
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/6b/6baf704df9aa55046a9553124c407683.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/6b/6baf704df9aa55046a9553124c407683.info
-    projectPath: Library/metadata/6b/6baf704df9aa55046a9553124c407683.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/70/70f78936f8a594a96a7c3616cabfe25b
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/70/70f78936f8a594a96a7c3616cabfe25b
-    projectPath: Library/metadata/70/70f78936f8a594a96a7c3616cabfe25b
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/70/70f78936f8a594a96a7c3616cabfe25b.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/70/70f78936f8a594a96a7c3616cabfe25b.info
-    projectPath: Library/metadata/70/70f78936f8a594a96a7c3616cabfe25b.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/73/73352c6c2e503ab4ab08ecec77d389ac
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/73/73352c6c2e503ab4ab08ecec77d389ac
-    projectPath: Library/metadata/73/73352c6c2e503ab4ab08ecec77d389ac
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/73/73352c6c2e503ab4ab08ecec77d389ac.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/73/73352c6c2e503ab4ab08ecec77d389ac.info
-    projectPath: Library/metadata/73/73352c6c2e503ab4ab08ecec77d389ac.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/74/74cbada03bcd41d49acec56746acf71e
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/74/74cbada03bcd41d49acec56746acf71e
-    projectPath: Library/metadata/74/74cbada03bcd41d49acec56746acf71e
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/74/74cbada03bcd41d49acec56746acf71e.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/74/74cbada03bcd41d49acec56746acf71e.info
-    projectPath: Library/metadata/74/74cbada03bcd41d49acec56746acf71e.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/77/7717d08fdcc532b449044fc4b21a7b5a
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/77/7717d08fdcc532b449044fc4b21a7b5a
-    projectPath: Library/metadata/77/7717d08fdcc532b449044fc4b21a7b5a
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/77/7717d08fdcc532b449044fc4b21a7b5a.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/77/7717d08fdcc532b449044fc4b21a7b5a.info
-    projectPath: Library/metadata/77/7717d08fdcc532b449044fc4b21a7b5a.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/77/7756787e27ea04087b3383908bdbafaa
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/77/7756787e27ea04087b3383908bdbafaa
-    projectPath: Library/metadata/77/7756787e27ea04087b3383908bdbafaa
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/77/7756787e27ea04087b3383908bdbafaa.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/77/7756787e27ea04087b3383908bdbafaa.info
-    projectPath: Library/metadata/77/7756787e27ea04087b3383908bdbafaa.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/7e/7e80fd7dc1a81c948a59d548bf381ad8
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/7e/7e80fd7dc1a81c948a59d548bf381ad8
-    projectPath: Library/metadata/7e/7e80fd7dc1a81c948a59d548bf381ad8
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/7e/7e80fd7dc1a81c948a59d548bf381ad8.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/7e/7e80fd7dc1a81c948a59d548bf381ad8.info
-    projectPath: Library/metadata/7e/7e80fd7dc1a81c948a59d548bf381ad8.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/83/830e3c67aa5074a689b628c84f0d7ab7
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/83/830e3c67aa5074a689b628c84f0d7ab7
-    projectPath: Library/metadata/83/830e3c67aa5074a689b628c84f0d7ab7
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/83/830e3c67aa5074a689b628c84f0d7ab7.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/83/830e3c67aa5074a689b628c84f0d7ab7.info
-    projectPath: Library/metadata/83/830e3c67aa5074a689b628c84f0d7ab7.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/84/846721efcb18b9b459ce40b282e84240
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/84/846721efcb18b9b459ce40b282e84240
-    projectPath: Library/metadata/84/846721efcb18b9b459ce40b282e84240
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/84/846721efcb18b9b459ce40b282e84240.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/84/846721efcb18b9b459ce40b282e84240.info
-    projectPath: Library/metadata/84/846721efcb18b9b459ce40b282e84240.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/8a/8aac71fdee9604676bf7cda921954825
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/8a/8aac71fdee9604676bf7cda921954825
-    projectPath: Library/metadata/8a/8aac71fdee9604676bf7cda921954825
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/8a/8aac71fdee9604676bf7cda921954825.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/8a/8aac71fdee9604676bf7cda921954825.info
-    projectPath: Library/metadata/8a/8aac71fdee9604676bf7cda921954825.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/8e/8e7e6228e39434ed4af01d634ca811d8
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/8e/8e7e6228e39434ed4af01d634ca811d8
-    projectPath: Library/metadata/8e/8e7e6228e39434ed4af01d634ca811d8
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/8e/8e7e6228e39434ed4af01d634ca811d8.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/8e/8e7e6228e39434ed4af01d634ca811d8.info
-    projectPath: Library/metadata/8e/8e7e6228e39434ed4af01d634ca811d8.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/8f/8f3b327bfc1af974283b0cd9941ef840
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/8f/8f3b327bfc1af974283b0cd9941ef840
-    projectPath: Library/metadata/8f/8f3b327bfc1af974283b0cd9941ef840
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/8f/8f3b327bfc1af974283b0cd9941ef840.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/8f/8f3b327bfc1af974283b0cd9941ef840.info
-    projectPath: Library/metadata/8f/8f3b327bfc1af974283b0cd9941ef840.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/90/90de326af62a75d43bcaff3421969121
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/90/90de326af62a75d43bcaff3421969121
-    projectPath: Library/metadata/90/90de326af62a75d43bcaff3421969121
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/90/90de326af62a75d43bcaff3421969121.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/90/90de326af62a75d43bcaff3421969121.info
-    projectPath: Library/metadata/90/90de326af62a75d43bcaff3421969121.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/94/9468cfbf407387c4d8fef60308588e42
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/94/9468cfbf407387c4d8fef60308588e42
-    projectPath: Library/metadata/94/9468cfbf407387c4d8fef60308588e42
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/94/9468cfbf407387c4d8fef60308588e42.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/94/9468cfbf407387c4d8fef60308588e42.info
-    projectPath: Library/metadata/94/9468cfbf407387c4d8fef60308588e42.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/94/94e972793da153a4883e3f69867cca24
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/94/94e972793da153a4883e3f69867cca24
-    projectPath: Library/metadata/94/94e972793da153a4883e3f69867cca24
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/94/94e972793da153a4883e3f69867cca24.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/94/94e972793da153a4883e3f69867cca24.info
-    projectPath: Library/metadata/94/94e972793da153a4883e3f69867cca24.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/96/96558d9af5ccba84da0a06dc9afa072d
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/96/96558d9af5ccba84da0a06dc9afa072d
-    projectPath: Library/metadata/96/96558d9af5ccba84da0a06dc9afa072d
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/96/96558d9af5ccba84da0a06dc9afa072d.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/96/96558d9af5ccba84da0a06dc9afa072d.info
-    projectPath: Library/metadata/96/96558d9af5ccba84da0a06dc9afa072d.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/99/995f919a223334a5197761b59517bdc1
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/99/995f919a223334a5197761b59517bdc1
-    projectPath: Library/metadata/99/995f919a223334a5197761b59517bdc1
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/99/995f919a223334a5197761b59517bdc1.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/99/995f919a223334a5197761b59517bdc1.info
-    projectPath: Library/metadata/99/995f919a223334a5197761b59517bdc1.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/9b/9b1c471c342098c49800886f3e61c922
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/9b/9b1c471c342098c49800886f3e61c922
-    projectPath: Library/metadata/9b/9b1c471c342098c49800886f3e61c922
+  - path: Library/metadata/52/52387bc7799334e5ebd3592744d1f51e
+    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/52/52387bc7799334e5ebd3592744d1f51e
+    projectPath: Library/metadata/52/52387bc7799334e5ebd3592744d1f51e
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/metadata/9f/9fed61a6894e85542be0bf7c6b023514
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/9f/9fed61a6894e85542be0bf7c6b023514
-    projectPath: Library/metadata/9f/9fed61a6894e85542be0bf7c6b023514
+  - path: Library/metadata/61/61a8fc8e6a01340e48a65e186a60efb8
+    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/61/61a8fc8e6a01340e48a65e186a60efb8
+    projectPath: Library/metadata/61/61a8fc8e6a01340e48a65e186a60efb8
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/metadata/a0/a0d94a978a7e895429372c506487e798
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/a0/a0d94a978a7e895429372c506487e798
-    projectPath: Library/metadata/a0/a0d94a978a7e895429372c506487e798
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/a0/a0d94a978a7e895429372c506487e798.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/a0/a0d94a978a7e895429372c506487e798.info
-    projectPath: Library/metadata/a0/a0d94a978a7e895429372c506487e798.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/a6/a6fa8b976350d4b2589e91405e4ca037
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/a6/a6fa8b976350d4b2589e91405e4ca037
-    projectPath: Library/metadata/a6/a6fa8b976350d4b2589e91405e4ca037
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/a6/a6fa8b976350d4b2589e91405e4ca037.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/a6/a6fa8b976350d4b2589e91405e4ca037.info
-    projectPath: Library/metadata/a6/a6fa8b976350d4b2589e91405e4ca037.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/a7/a7620eecb715ccf409f41bda9e06f7cc
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/a7/a7620eecb715ccf409f41bda9e06f7cc
-    projectPath: Library/metadata/a7/a7620eecb715ccf409f41bda9e06f7cc
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/a7/a7620eecb715ccf409f41bda9e06f7cc.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/a7/a7620eecb715ccf409f41bda9e06f7cc.info
-    projectPath: Library/metadata/a7/a7620eecb715ccf409f41bda9e06f7cc.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/a7/a770588f19189478a88c8f98aec3c942
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/a7/a770588f19189478a88c8f98aec3c942
-    projectPath: Library/metadata/a7/a770588f19189478a88c8f98aec3c942
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/a7/a770588f19189478a88c8f98aec3c942.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/a7/a770588f19189478a88c8f98aec3c942.info
-    projectPath: Library/metadata/a7/a770588f19189478a88c8f98aec3c942.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/a9/a97bdcf094fff104d9f67b004b505dd0
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/a9/a97bdcf094fff104d9f67b004b505dd0
-    projectPath: Library/metadata/a9/a97bdcf094fff104d9f67b004b505dd0
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/a9/a97bdcf094fff104d9f67b004b505dd0.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/a9/a97bdcf094fff104d9f67b004b505dd0.info
-    projectPath: Library/metadata/a9/a97bdcf094fff104d9f67b004b505dd0.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/ac/ac57b13941dd0884ca6b37a1b44faa90
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/ac/ac57b13941dd0884ca6b37a1b44faa90
-    projectPath: Library/metadata/ac/ac57b13941dd0884ca6b37a1b44faa90
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/ac/ac57b13941dd0884ca6b37a1b44faa90.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/ac/ac57b13941dd0884ca6b37a1b44faa90.info
-    projectPath: Library/metadata/ac/ac57b13941dd0884ca6b37a1b44faa90.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/ad/ad90f586d4fe1b942b46f0da520a0e61
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/ad/ad90f586d4fe1b942b46f0da520a0e61
-    projectPath: Library/metadata/ad/ad90f586d4fe1b942b46f0da520a0e61
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/ad/ad90f586d4fe1b942b46f0da520a0e61.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/ad/ad90f586d4fe1b942b46f0da520a0e61.info
-    projectPath: Library/metadata/ad/ad90f586d4fe1b942b46f0da520a0e61.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/af/af0d33e3f402ddc4dade40562c3c1ec2
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/af/af0d33e3f402ddc4dade40562c3c1ec2
-    projectPath: Library/metadata/af/af0d33e3f402ddc4dade40562c3c1ec2
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/af/af0d33e3f402ddc4dade40562c3c1ec2.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/af/af0d33e3f402ddc4dade40562c3c1ec2.info
-    projectPath: Library/metadata/af/af0d33e3f402ddc4dade40562c3c1ec2.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/b0/b0fafae756170fc4da9b2c0583673d75
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/b0/b0fafae756170fc4da9b2c0583673d75
-    projectPath: Library/metadata/b0/b0fafae756170fc4da9b2c0583673d75
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/b0/b0fafae756170fc4da9b2c0583673d75.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/b0/b0fafae756170fc4da9b2c0583673d75.info
-    projectPath: Library/metadata/b0/b0fafae756170fc4da9b2c0583673d75.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/b2/b24f7a066cecbf14fb1725b9b2f12f27
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/b2/b24f7a066cecbf14fb1725b9b2f12f27
-    projectPath: Library/metadata/b2/b24f7a066cecbf14fb1725b9b2f12f27
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/b2/b24f7a066cecbf14fb1725b9b2f12f27.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/b2/b24f7a066cecbf14fb1725b9b2f12f27.info
-    projectPath: Library/metadata/b2/b24f7a066cecbf14fb1725b9b2f12f27.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/bf/bfa055843a98c8742a440115ad29b430
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/bf/bfa055843a98c8742a440115ad29b430
-    projectPath: Library/metadata/bf/bfa055843a98c8742a440115ad29b430
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/bf/bfa055843a98c8742a440115ad29b430.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/bf/bfa055843a98c8742a440115ad29b430.info
-    projectPath: Library/metadata/bf/bfa055843a98c8742a440115ad29b430.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/c1/c1bf15a58391a4250bb6c087cfa98e9b
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/c1/c1bf15a58391a4250bb6c087cfa98e9b
-    projectPath: Library/metadata/c1/c1bf15a58391a4250bb6c087cfa98e9b
+  - path: Library/metadata/6d/6d0a7da287d337942a18f3923e747bf4
+    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/6d/6d0a7da287d337942a18f3923e747bf4
+    projectPath: Library/metadata/6d/6d0a7da287d337942a18f3923e747bf4
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/metadata/c2/c205d07e0900c8348ab1b84b4c8afe17
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/c2/c205d07e0900c8348ab1b84b4c8afe17
-    projectPath: Library/metadata/c2/c205d07e0900c8348ab1b84b4c8afe17
+  - path: Library/metadata/8a/8ab00236d0b264a0a91d717e41c72094
+    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/8a/8ab00236d0b264a0a91d717e41c72094
+    projectPath: Library/metadata/8a/8ab00236d0b264a0a91d717e41c72094
     originalPath: 
     status: 1
     staged: 0
-  - path: Library/metadata/c2/c205d07e0900c8348ab1b84b4c8afe17.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/c2/c205d07e0900c8348ab1b84b4c8afe17.info
-    projectPath: Library/metadata/c2/c205d07e0900c8348ab1b84b4c8afe17.info
+  - path: Library/metadata/8a/8ab00236d0b264a0a91d717e41c72094.info
+    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/8a/8ab00236d0b264a0a91d717e41c72094.info
+    projectPath: Library/metadata/8a/8ab00236d0b264a0a91d717e41c72094.info
     originalPath: 
     status: 1
     staged: 0
-  - path: Library/metadata/c4/c455996f6e6b49d418895f41b5216202
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/c4/c455996f6e6b49d418895f41b5216202
-    projectPath: Library/metadata/c4/c455996f6e6b49d418895f41b5216202
+  - path: Library/metadata/a1/a121a9fae3ef64d47bef79fe2510c40d
+    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/a1/a121a9fae3ef64d47bef79fe2510c40d
+    projectPath: Library/metadata/a1/a121a9fae3ef64d47bef79fe2510c40d
     originalPath: 
     status: 1
     staged: 0
-  - path: Library/metadata/c4/c455996f6e6b49d418895f41b5216202.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/c4/c455996f6e6b49d418895f41b5216202.info
-    projectPath: Library/metadata/c4/c455996f6e6b49d418895f41b5216202.info
+  - path: Library/metadata/a1/a121a9fae3ef64d47bef79fe2510c40d.info
+    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/a1/a121a9fae3ef64d47bef79fe2510c40d.info
+    projectPath: Library/metadata/a1/a121a9fae3ef64d47bef79fe2510c40d.info
     originalPath: 
     status: 1
     staged: 0
-  - path: Library/metadata/c9/c9be5e01f0dcd16479232488830296bd
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/c9/c9be5e01f0dcd16479232488830296bd
-    projectPath: Library/metadata/c9/c9be5e01f0dcd16479232488830296bd
+  - path: Library/metadata/ca/cab03ee93234d4af79b8928b2727548d
+    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/ca/cab03ee93234d4af79b8928b2727548d
+    projectPath: Library/metadata/ca/cab03ee93234d4af79b8928b2727548d
     originalPath: 
     status: 1
     staged: 0
-  - path: Library/metadata/c9/c9be5e01f0dcd16479232488830296bd.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/c9/c9be5e01f0dcd16479232488830296bd.info
-    projectPath: Library/metadata/c9/c9be5e01f0dcd16479232488830296bd.info
+  - path: Library/metadata/ca/cab03ee93234d4af79b8928b2727548d.info
+    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/ca/cab03ee93234d4af79b8928b2727548d.info
+    projectPath: Library/metadata/ca/cab03ee93234d4af79b8928b2727548d.info
     originalPath: 
     status: 1
-    staged: 0
-  - path: Library/metadata/cc/cc633396b5f95da4b916357a5508ee4f
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/cc/cc633396b5f95da4b916357a5508ee4f
-    projectPath: Library/metadata/cc/cc633396b5f95da4b916357a5508ee4f
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/cc/cc633396b5f95da4b916357a5508ee4f.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/cc/cc633396b5f95da4b916357a5508ee4f.info
-    projectPath: Library/metadata/cc/cc633396b5f95da4b916357a5508ee4f.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/cc/ccdfdb1f96bf64f68a7d785511d9c043
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/cc/ccdfdb1f96bf64f68a7d785511d9c043
-    projectPath: Library/metadata/cc/ccdfdb1f96bf64f68a7d785511d9c043
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/cc/ccdfdb1f96bf64f68a7d785511d9c043.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/cc/ccdfdb1f96bf64f68a7d785511d9c043.info
-    projectPath: Library/metadata/cc/ccdfdb1f96bf64f68a7d785511d9c043.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/cd/cd0ae13249cbc9c4dab2043eca83ae07
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/cd/cd0ae13249cbc9c4dab2043eca83ae07
-    projectPath: Library/metadata/cd/cd0ae13249cbc9c4dab2043eca83ae07
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/cd/cd0ae13249cbc9c4dab2043eca83ae07.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/cd/cd0ae13249cbc9c4dab2043eca83ae07.info
-    projectPath: Library/metadata/cd/cd0ae13249cbc9c4dab2043eca83ae07.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/cf/cf5d40e9dd786364e829490efdd06cba
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/cf/cf5d40e9dd786364e829490efdd06cba
-    projectPath: Library/metadata/cf/cf5d40e9dd786364e829490efdd06cba
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/cf/cf5d40e9dd786364e829490efdd06cba.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/cf/cf5d40e9dd786364e829490efdd06cba.info
-    projectPath: Library/metadata/cf/cf5d40e9dd786364e829490efdd06cba.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/d1/d1db00f8d023f476180bbf4495d4e003
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/d1/d1db00f8d023f476180bbf4495d4e003
-    projectPath: Library/metadata/d1/d1db00f8d023f476180bbf4495d4e003
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/d1/d1db00f8d023f476180bbf4495d4e003.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/d1/d1db00f8d023f476180bbf4495d4e003.info
-    projectPath: Library/metadata/d1/d1db00f8d023f476180bbf4495d4e003.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/d1/d1e116197624a1e49b72f535c7c8037b
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/d1/d1e116197624a1e49b72f535c7c8037b
-    projectPath: Library/metadata/d1/d1e116197624a1e49b72f535c7c8037b
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/d1/d1e116197624a1e49b72f535c7c8037b.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/d1/d1e116197624a1e49b72f535c7c8037b.info
-    projectPath: Library/metadata/d1/d1e116197624a1e49b72f535c7c8037b.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/d3/d334baa9b0bb748bd8c5045322ce5bbf
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/d3/d334baa9b0bb748bd8c5045322ce5bbf
-    projectPath: Library/metadata/d3/d334baa9b0bb748bd8c5045322ce5bbf
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/d3/d334baa9b0bb748bd8c5045322ce5bbf.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/d3/d334baa9b0bb748bd8c5045322ce5bbf.info
-    projectPath: Library/metadata/d3/d334baa9b0bb748bd8c5045322ce5bbf.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/d3/d3b7d84ffb95cc04aaeb74f19a10f034
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/d3/d3b7d84ffb95cc04aaeb74f19a10f034
-    projectPath: Library/metadata/d3/d3b7d84ffb95cc04aaeb74f19a10f034
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/d3/d3b7d84ffb95cc04aaeb74f19a10f034.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/d3/d3b7d84ffb95cc04aaeb74f19a10f034.info
-    projectPath: Library/metadata/d3/d3b7d84ffb95cc04aaeb74f19a10f034.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/db/db26e966ac015b443890b9346c614e0c
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/db/db26e966ac015b443890b9346c614e0c
-    projectPath: Library/metadata/db/db26e966ac015b443890b9346c614e0c
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/db/db26e966ac015b443890b9346c614e0c.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/db/db26e966ac015b443890b9346c614e0c.info
-    projectPath: Library/metadata/db/db26e966ac015b443890b9346c614e0c.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/e0/e097e0ca551c28647a5a126e44c35bbc
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/e0/e097e0ca551c28647a5a126e44c35bbc
-    projectPath: Library/metadata/e0/e097e0ca551c28647a5a126e44c35bbc
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/e0/e097e0ca551c28647a5a126e44c35bbc.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/e0/e097e0ca551c28647a5a126e44c35bbc.info
-    projectPath: Library/metadata/e0/e097e0ca551c28647a5a126e44c35bbc.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/e1/e125771578f4b464a88a36b476dd13ad
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/e1/e125771578f4b464a88a36b476dd13ad
-    projectPath: Library/metadata/e1/e125771578f4b464a88a36b476dd13ad
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/e1/e125771578f4b464a88a36b476dd13ad.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/e1/e125771578f4b464a88a36b476dd13ad.info
-    projectPath: Library/metadata/e1/e125771578f4b464a88a36b476dd13ad.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/e6/e66024fd54c4b42088d6b2b05d6eeedb
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/e6/e66024fd54c4b42088d6b2b05d6eeedb
-    projectPath: Library/metadata/e6/e66024fd54c4b42088d6b2b05d6eeedb
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/e6/e66024fd54c4b42088d6b2b05d6eeedb.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/e6/e66024fd54c4b42088d6b2b05d6eeedb.info
-    projectPath: Library/metadata/e6/e66024fd54c4b42088d6b2b05d6eeedb.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/e7/e79b4ee3b7b31ee499b1532270c7730d
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/e7/e79b4ee3b7b31ee499b1532270c7730d
-    projectPath: Library/metadata/e7/e79b4ee3b7b31ee499b1532270c7730d
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/e7/e79b4ee3b7b31ee499b1532270c7730d.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/e7/e79b4ee3b7b31ee499b1532270c7730d.info
-    projectPath: Library/metadata/e7/e79b4ee3b7b31ee499b1532270c7730d.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/e7/e7d408c28925be148bd9ef32f4f28e44
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/e7/e7d408c28925be148bd9ef32f4f28e44
-    projectPath: Library/metadata/e7/e7d408c28925be148bd9ef32f4f28e44
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/e7/e7d408c28925be148bd9ef32f4f28e44.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/e7/e7d408c28925be148bd9ef32f4f28e44.info
-    projectPath: Library/metadata/e7/e7d408c28925be148bd9ef32f4f28e44.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/ec/ec68b92e49740214986d7baf8bafb43e
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/ec/ec68b92e49740214986d7baf8bafb43e
-    projectPath: Library/metadata/ec/ec68b92e49740214986d7baf8bafb43e
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/ec/ec68b92e49740214986d7baf8bafb43e.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/ec/ec68b92e49740214986d7baf8bafb43e.info
-    projectPath: Library/metadata/ec/ec68b92e49740214986d7baf8bafb43e.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/ed/ed8c25d7db4dc4cc793532ca89704201
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/ed/ed8c25d7db4dc4cc793532ca89704201
-    projectPath: Library/metadata/ed/ed8c25d7db4dc4cc793532ca89704201
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/ed/ed8c25d7db4dc4cc793532ca89704201.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/ed/ed8c25d7db4dc4cc793532ca89704201.info
-    projectPath: Library/metadata/ed/ed8c25d7db4dc4cc793532ca89704201.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/f0/f03ebd10317634c83b26e3a4e5d18be8
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/f0/f03ebd10317634c83b26e3a4e5d18be8
-    projectPath: Library/metadata/f0/f03ebd10317634c83b26e3a4e5d18be8
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/f0/f03ebd10317634c83b26e3a4e5d18be8.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/f0/f03ebd10317634c83b26e3a4e5d18be8.info
-    projectPath: Library/metadata/f0/f03ebd10317634c83b26e3a4e5d18be8.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/f1/f14b6f7503476eb4e9b2afc1cc05e719
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/f1/f14b6f7503476eb4e9b2afc1cc05e719
-    projectPath: Library/metadata/f1/f14b6f7503476eb4e9b2afc1cc05e719
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/f1/f14b6f7503476eb4e9b2afc1cc05e719.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/f1/f14b6f7503476eb4e9b2afc1cc05e719.info
-    projectPath: Library/metadata/f1/f14b6f7503476eb4e9b2afc1cc05e719.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/f2/f2735dc09a5b53641ba65ba813b6f488
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/f2/f2735dc09a5b53641ba65ba813b6f488
-    projectPath: Library/metadata/f2/f2735dc09a5b53641ba65ba813b6f488
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/f2/f2735dc09a5b53641ba65ba813b6f488.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/f2/f2735dc09a5b53641ba65ba813b6f488.info
-    projectPath: Library/metadata/f2/f2735dc09a5b53641ba65ba813b6f488.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/f3/f334675fcf9304b1c9e48adceee81b63
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/f3/f334675fcf9304b1c9e48adceee81b63
-    projectPath: Library/metadata/f3/f334675fcf9304b1c9e48adceee81b63
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/f3/f334675fcf9304b1c9e48adceee81b63.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/f3/f334675fcf9304b1c9e48adceee81b63.info
-    projectPath: Library/metadata/f3/f334675fcf9304b1c9e48adceee81b63.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/fc/fc669a2e3c5e54a40b32fdbe43483e98
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/fc/fc669a2e3c5e54a40b32fdbe43483e98
-    projectPath: Library/metadata/fc/fc669a2e3c5e54a40b32fdbe43483e98
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/fc/fc669a2e3c5e54a40b32fdbe43483e98.info
-    fullPath: /Users/mateo/Desktop/Navigation/Library/metadata/fc/fc669a2e3c5e54a40b32fdbe43483e98.info
-    projectPath: Library/metadata/fc/fc669a2e3c5e54a40b32fdbe43483e98.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ProjectSettings.asset
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ProjectSettings.asset
-    projectPath: Library/ProjectSettings.asset
-    originalPath: 
-    status: 3
     staged: 0
   - path: Library/ScriptAssemblies/Assembly-CSharp.dll
     fullPath: /Users/mateo/Desktop/Navigation/Library/ScriptAssemblies/Assembly-CSharp.dll
@@ -2296,269 +334,11 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/ShaderCache/0/05c10c042ee833e3ad857c080abc26dd.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/0/05c10c042ee833e3ad857c080abc26dd.bin
-    projectPath: Library/ShaderCache/0/05c10c042ee833e3ad857c080abc26dd.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/0/0ed19f213ea8e79b17f8dcd1b7f1c152.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/0/0ed19f213ea8e79b17f8dcd1b7f1c152.bin
-    projectPath: Library/ShaderCache/0/0ed19f213ea8e79b17f8dcd1b7f1c152.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/1/103a9a134120e63f749bbe71ed2b62d9.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/1/103a9a134120e63f749bbe71ed2b62d9.bin
-    projectPath: Library/ShaderCache/1/103a9a134120e63f749bbe71ed2b62d9.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/1/1108903a7f4a8aadef9dc19e3350a758.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/1/1108903a7f4a8aadef9dc19e3350a758.bin
-    projectPath: Library/ShaderCache/1/1108903a7f4a8aadef9dc19e3350a758.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/2/2bbea04f10ebf26dce5a9de6c160a839.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/2/2bbea04f10ebf26dce5a9de6c160a839.bin
-    projectPath: Library/ShaderCache/2/2bbea04f10ebf26dce5a9de6c160a839.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/3/3e67378888e32074311492c95d6fa52e.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/3/3e67378888e32074311492c95d6fa52e.bin
-    projectPath: Library/ShaderCache/3/3e67378888e32074311492c95d6fa52e.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/3/3fdd5a40198ea825666b15676453b74c.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/3/3fdd5a40198ea825666b15676453b74c.bin
-    projectPath: Library/ShaderCache/3/3fdd5a40198ea825666b15676453b74c.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/4/45c4f122d4f8227cb62f9ba45be5fcec.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/4/45c4f122d4f8227cb62f9ba45be5fcec.bin
-    projectPath: Library/ShaderCache/4/45c4f122d4f8227cb62f9ba45be5fcec.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/4/489f165985464e7d3bcb9adfaa456018.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/4/489f165985464e7d3bcb9adfaa456018.bin
-    projectPath: Library/ShaderCache/4/489f165985464e7d3bcb9adfaa456018.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/4/4b1c0260cd959f73a8ef2c84e294dc12.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/4/4b1c0260cd959f73a8ef2c84e294dc12.bin
-    projectPath: Library/ShaderCache/4/4b1c0260cd959f73a8ef2c84e294dc12.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/4/4e58b6ef0d8ea652d774ee7e365c92b2.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/4/4e58b6ef0d8ea652d774ee7e365c92b2.bin
-    projectPath: Library/ShaderCache/4/4e58b6ef0d8ea652d774ee7e365c92b2.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/5/507d3da54aa625d1d8cc03a64752dc76.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/5/507d3da54aa625d1d8cc03a64752dc76.bin
-    projectPath: Library/ShaderCache/5/507d3da54aa625d1d8cc03a64752dc76.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/5/52365eadd1eaf038d904c298d78282e6.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/5/52365eadd1eaf038d904c298d78282e6.bin
-    projectPath: Library/ShaderCache/5/52365eadd1eaf038d904c298d78282e6.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/5/53dd81f938591bb5382d7e0a1132db20.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/5/53dd81f938591bb5382d7e0a1132db20.bin
-    projectPath: Library/ShaderCache/5/53dd81f938591bb5382d7e0a1132db20.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/5/549dee8995d46a2ca84523fd27e3f3a6.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/5/549dee8995d46a2ca84523fd27e3f3a6.bin
-    projectPath: Library/ShaderCache/5/549dee8995d46a2ca84523fd27e3f3a6.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/5/549f044b050dc3201fcf3d49ec50053b.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/5/549f044b050dc3201fcf3d49ec50053b.bin
-    projectPath: Library/ShaderCache/5/549f044b050dc3201fcf3d49ec50053b.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/5/54b00812b4ca9f9cf125fdf56ae79ef2.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/5/54b00812b4ca9f9cf125fdf56ae79ef2.bin
-    projectPath: Library/ShaderCache/5/54b00812b4ca9f9cf125fdf56ae79ef2.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/5/5c6014ffbb06de9ae318e14686ccc18f.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/5/5c6014ffbb06de9ae318e14686ccc18f.bin
-    projectPath: Library/ShaderCache/5/5c6014ffbb06de9ae318e14686ccc18f.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/6/6028dfd2517e39b70f52cfb1dfc541c7.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/6/6028dfd2517e39b70f52cfb1dfc541c7.bin
-    projectPath: Library/ShaderCache/6/6028dfd2517e39b70f52cfb1dfc541c7.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/6/61624711ec34cd9655f379aed8f2022c.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/6/61624711ec34cd9655f379aed8f2022c.bin
-    projectPath: Library/ShaderCache/6/61624711ec34cd9655f379aed8f2022c.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/6/61cdd1e5aa020213df342381f0c8ba8f.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/6/61cdd1e5aa020213df342381f0c8ba8f.bin
-    projectPath: Library/ShaderCache/6/61cdd1e5aa020213df342381f0c8ba8f.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/6/67a4607f4b89a52137c795fc7c9545cd.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/6/67a4607f4b89a52137c795fc7c9545cd.bin
-    projectPath: Library/ShaderCache/6/67a4607f4b89a52137c795fc7c9545cd.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/6/6dc2357f5e99b6000170d7499e1c8091.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/6/6dc2357f5e99b6000170d7499e1c8091.bin
-    projectPath: Library/ShaderCache/6/6dc2357f5e99b6000170d7499e1c8091.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/7/72de5f8d07ef5567c6203a9a6b536487.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/7/72de5f8d07ef5567c6203a9a6b536487.bin
-    projectPath: Library/ShaderCache/7/72de5f8d07ef5567c6203a9a6b536487.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/7/78bed7e069ce00518bdebb263c76ec84.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/7/78bed7e069ce00518bdebb263c76ec84.bin
-    projectPath: Library/ShaderCache/7/78bed7e069ce00518bdebb263c76ec84.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/8/88afb62297c9e30a08516606db7e6d7c.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/8/88afb62297c9e30a08516606db7e6d7c.bin
-    projectPath: Library/ShaderCache/8/88afb62297c9e30a08516606db7e6d7c.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/8/898a24821099f3269eb4c1961bdbc1a6.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/8/898a24821099f3269eb4c1961bdbc1a6.bin
-    projectPath: Library/ShaderCache/8/898a24821099f3269eb4c1961bdbc1a6.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/9/9fc6ed5a4fa0f92473c28aeda2fed6c8.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/9/9fc6ed5a4fa0f92473c28aeda2fed6c8.bin
-    projectPath: Library/ShaderCache/9/9fc6ed5a4fa0f92473c28aeda2fed6c8.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/a/a92815720cae0ff4d289b792f2485166.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/a/a92815720cae0ff4d289b792f2485166.bin
-    projectPath: Library/ShaderCache/a/a92815720cae0ff4d289b792f2485166.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/b/b1dcd40cab23180b8e13585208849f22.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/b/b1dcd40cab23180b8e13585208849f22.bin
-    projectPath: Library/ShaderCache/b/b1dcd40cab23180b8e13585208849f22.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/c/c061ed17aa583679587632c12e60bf63.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/c/c061ed17aa583679587632c12e60bf63.bin
-    projectPath: Library/ShaderCache/c/c061ed17aa583679587632c12e60bf63.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/c/ca6fcf2889e16211b240dccd5a9d7aed.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/c/ca6fcf2889e16211b240dccd5a9d7aed.bin
-    projectPath: Library/ShaderCache/c/ca6fcf2889e16211b240dccd5a9d7aed.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/d/d4fd7bd82eaf8cb23539d033c7fa7a9d.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/d/d4fd7bd82eaf8cb23539d033c7fa7a9d.bin
-    projectPath: Library/ShaderCache/d/d4fd7bd82eaf8cb23539d033c7fa7a9d.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/d/d6145459c3b394f279db9cd718a720ea.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/d/d6145459c3b394f279db9cd718a720ea.bin
-    projectPath: Library/ShaderCache/d/d6145459c3b394f279db9cd718a720ea.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/d/df581f5dd1fb3d962c6dfe0afea07f70.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/d/df581f5dd1fb3d962c6dfe0afea07f70.bin
-    projectPath: Library/ShaderCache/d/df581f5dd1fb3d962c6dfe0afea07f70.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/e/e4127cc3f971b051fbc4ec31d4dcc573.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/e/e4127cc3f971b051fbc4ec31d4dcc573.bin
-    projectPath: Library/ShaderCache/e/e4127cc3f971b051fbc4ec31d4dcc573.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/e/e4c3d8568e3af7edba24475cdc7f43fe.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/e/e4c3d8568e3af7edba24475cdc7f43fe.bin
-    projectPath: Library/ShaderCache/e/e4c3d8568e3af7edba24475cdc7f43fe.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/e/e943b73c708234ff7c31d05daf576eea.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/e/e943b73c708234ff7c31d05daf576eea.bin
-    projectPath: Library/ShaderCache/e/e943b73c708234ff7c31d05daf576eea.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/e/eac83dcaa62cc3cba39c5ff3e5874218.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/e/eac83dcaa62cc3cba39c5ff3e5874218.bin
-    projectPath: Library/ShaderCache/e/eac83dcaa62cc3cba39c5ff3e5874218.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/e/ee46cf67c81bfbdb9a7a2545d8b13477.bin
-    fullPath: /Users/mateo/Desktop/Navigation/Library/ShaderCache/e/ee46cf67c81bfbdb9a7a2545d8b13477.bin
-    projectPath: Library/ShaderCache/e/ee46cf67c81bfbdb9a7a2545d8b13477.bin
-    originalPath: 
-    status: 1
-    staged: 0
   - path: Library/shadercompiler-UnityShaderCompiler0.log
     fullPath: /Users/mateo/Desktop/Navigation/Library/shadercompiler-UnityShaderCompiler0.log
     projectPath: Library/shadercompiler-UnityShaderCompiler0.log
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library/StateCache/Hierarchy/701e44-28ad6bc8a17e7284d8.json
-    fullPath: /Users/mateo/Desktop/Navigation/Library/StateCache/Hierarchy/701e44-28ad6bc8a17e7284d8.json
-    projectPath: Library/StateCache/Hierarchy/701e44-28ad6bc8a17e7284d8.json
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/StateCache/Hierarchy/701e44-61a8fc8e6a01340e48.json
-    fullPath: /Users/mateo/Desktop/Navigation/Library/StateCache/Hierarchy/701e44-61a8fc8e6a01340e48.json
-    projectPath: Library/StateCache/Hierarchy/701e44-61a8fc8e6a01340e48.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/StateCache/Hierarchy/701e44-e66024fd54c4b42088.json
-    fullPath: /Users/mateo/Desktop/Navigation/Library/StateCache/Hierarchy/701e44-e66024fd54c4b42088.json
-    projectPath: Library/StateCache/Hierarchy/701e44-e66024fd54c4b42088.json
-    originalPath: 
-    status: 1
     staged: 0
   - path: Library/StateCache/Hierarchy/701e44-mainStage.json
     fullPath: /Users/mateo/Desktop/Navigation/Library/StateCache/Hierarchy/701e44-mainStage.json
@@ -2566,27 +346,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/StateCache/SceneView/3b52f6-28ad6bc8a17e7284d8.json
-    fullPath: /Users/mateo/Desktop/Navigation/Library/StateCache/SceneView/3b52f6-28ad6bc8a17e7284d8.json
-    projectPath: Library/StateCache/SceneView/3b52f6-28ad6bc8a17e7284d8.json
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/StateCache/SceneView/3b52f6-e66024fd54c4b42088.json
-    fullPath: /Users/mateo/Desktop/Navigation/Library/StateCache/SceneView/3b52f6-e66024fd54c4b42088.json
-    projectPath: Library/StateCache/SceneView/3b52f6-e66024fd54c4b42088.json
-    originalPath: 
-    status: 1
-    staged: 0
   - path: Library/StateCache/SceneView/3b52f6-mainStage.json
     fullPath: /Users/mateo/Desktop/Navigation/Library/StateCache/SceneView/3b52f6-mainStage.json
     projectPath: Library/StateCache/SceneView/3b52f6-mainStage.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: /Users/mateo/Desktop/Navigation/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
     originalPath: 
     status: 3
     staged: 0
@@ -2596,93 +358,147 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: obj/Debug/Assembly-CSharp.dll
-    fullPath: /Users/mateo/Desktop/Navigation/obj/Debug/Assembly-CSharp.dll
-    projectPath: obj/Debug/Assembly-CSharp.dll
+  - path: obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    fullPath: /Users/mateo/Desktop/Navigation/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    projectPath: obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
     originalPath: 
     status: 3
     staged: 0
-  - path: obj/Debug/Assembly-CSharp.pdb
-    fullPath: /Users/mateo/Desktop/Navigation/obj/Debug/Assembly-CSharp.pdb
-    projectPath: obj/Debug/Assembly-CSharp.pdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings/NavMeshAreas.asset
-    fullPath: /Users/mateo/Desktop/Navigation/ProjectSettings/NavMeshAreas.asset
-    projectPath: ProjectSettings/NavMeshAreas.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings/ProjectSettings.asset
-    fullPath: /Users/mateo/Desktop/Navigation/ProjectSettings/ProjectSettings.asset
-    projectPath: ProjectSettings/ProjectSettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Temp/__Backupscenes/0.backup
-    fullPath: /Users/mateo/Desktop/Navigation/Temp/__Backupscenes/0.backup
-    projectPath: Temp/__Backupscenes/0.backup
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Temp/UnityTempFile-0a672ef6e987049538aeb8faa1776047
-    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-0a672ef6e987049538aeb8faa1776047
-    projectPath: Temp/UnityTempFile-0a672ef6e987049538aeb8faa1776047
+  - path: Temp/ProcessJobs/1f068db059d5cf0261a3b566803bc6c6.bakert
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/ProcessJobs/1f068db059d5cf0261a3b566803bc6c6.bakert
+    projectPath: Temp/ProcessJobs/1f068db059d5cf0261a3b566803bc6c6.bakert
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-305710d0e235d48e39cff52428c698f5
-    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-305710d0e235d48e39cff52428c698f5
-    projectPath: Temp/UnityTempFile-305710d0e235d48e39cff52428c698f5
+  - path: Temp/UnityLockfile
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityLockfile
+    projectPath: Temp/UnityLockfile
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-3e6fc68bc842d413eb108afb66507313
-    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-3e6fc68bc842d413eb108afb66507313
-    projectPath: Temp/UnityTempFile-3e6fc68bc842d413eb108afb66507313
+  - path: Temp/UnityTempFile-0bdc68147e0ca41658a463dfd96325a1
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-0bdc68147e0ca41658a463dfd96325a1
+    projectPath: Temp/UnityTempFile-0bdc68147e0ca41658a463dfd96325a1
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-44b2504ff4ebe4ba4a1707087ecf16f8
-    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-44b2504ff4ebe4ba4a1707087ecf16f8
-    projectPath: Temp/UnityTempFile-44b2504ff4ebe4ba4a1707087ecf16f8
+  - path: Temp/UnityTempFile-0e22cf44a7f3b433eb08e63022bb6790
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-0e22cf44a7f3b433eb08e63022bb6790
+    projectPath: Temp/UnityTempFile-0e22cf44a7f3b433eb08e63022bb6790
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-48124333389f14a59bef06687c9fc05b
-    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-48124333389f14a59bef06687c9fc05b
-    projectPath: Temp/UnityTempFile-48124333389f14a59bef06687c9fc05b
+  - path: Temp/UnityTempFile-169f990e76dce48b18c5d22baf933b08
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-169f990e76dce48b18c5d22baf933b08
+    projectPath: Temp/UnityTempFile-169f990e76dce48b18c5d22baf933b08
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-7637b6c1e1d0c4daba7000ddefc8351a
-    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-7637b6c1e1d0c4daba7000ddefc8351a
-    projectPath: Temp/UnityTempFile-7637b6c1e1d0c4daba7000ddefc8351a
+  - path: Temp/UnityTempFile-182881968b63d4b6f8d81fc92dcfcc17
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-182881968b63d4b6f8d81fc92dcfcc17
+    projectPath: Temp/UnityTempFile-182881968b63d4b6f8d81fc92dcfcc17
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-78a10ccb2d45e40c59a8ab02b9cace0e
-    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-78a10ccb2d45e40c59a8ab02b9cace0e
-    projectPath: Temp/UnityTempFile-78a10ccb2d45e40c59a8ab02b9cace0e
+  - path: Temp/UnityTempFile-18b846ca9820a4096adaee40bbf787f5
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-18b846ca9820a4096adaee40bbf787f5
+    projectPath: Temp/UnityTempFile-18b846ca9820a4096adaee40bbf787f5
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-b1a106b9fb2b24036a9f775194592a1b
-    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-b1a106b9fb2b24036a9f775194592a1b
-    projectPath: Temp/UnityTempFile-b1a106b9fb2b24036a9f775194592a1b
+  - path: Temp/UnityTempFile-2c78a3bccf0694ff29d22c2ad4182a71
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-2c78a3bccf0694ff29d22c2ad4182a71
+    projectPath: Temp/UnityTempFile-2c78a3bccf0694ff29d22c2ad4182a71
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-dbcf25ec5b59b446384bb28dfdf06a5e
-    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-dbcf25ec5b59b446384bb28dfdf06a5e
-    projectPath: Temp/UnityTempFile-dbcf25ec5b59b446384bb28dfdf06a5e
+  - path: Temp/UnityTempFile-351300e3cfe6c4bc0ae953c8eb82323e
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-351300e3cfe6c4bc0ae953c8eb82323e
+    projectPath: Temp/UnityTempFile-351300e3cfe6c4bc0ae953c8eb82323e
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-e3842342b81524a13a5a09404e3db66f
-    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-e3842342b81524a13a5a09404e3db66f
-    projectPath: Temp/UnityTempFile-e3842342b81524a13a5a09404e3db66f
+  - path: Temp/UnityTempFile-395471456a09a45009dc6a2b2c745063
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-395471456a09a45009dc6a2b2c745063
+    projectPath: Temp/UnityTempFile-395471456a09a45009dc6a2b2c745063
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-3e28c7c55486d4a5690689cb2655201a
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-3e28c7c55486d4a5690689cb2655201a
+    projectPath: Temp/UnityTempFile-3e28c7c55486d4a5690689cb2655201a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-426d2116bd3fd4d18860348fa3bef1d0
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-426d2116bd3fd4d18860348fa3bef1d0
+    projectPath: Temp/UnityTempFile-426d2116bd3fd4d18860348fa3bef1d0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-438e926a16ad6474eb3ce0dbb908d3b0
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-438e926a16ad6474eb3ce0dbb908d3b0
+    projectPath: Temp/UnityTempFile-438e926a16ad6474eb3ce0dbb908d3b0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-4b4ce6500477f469caa8fd7dd4103e90
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-4b4ce6500477f469caa8fd7dd4103e90
+    projectPath: Temp/UnityTempFile-4b4ce6500477f469caa8fd7dd4103e90
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-5f14d537dce7746549896e3ac823f8bb
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-5f14d537dce7746549896e3ac823f8bb
+    projectPath: Temp/UnityTempFile-5f14d537dce7746549896e3ac823f8bb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-71e713bff0d2d4a62b22efa8f16c17c1
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-71e713bff0d2d4a62b22efa8f16c17c1
+    projectPath: Temp/UnityTempFile-71e713bff0d2d4a62b22efa8f16c17c1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-80690cc89db9c45d089af16d3a66c2ff
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-80690cc89db9c45d089af16d3a66c2ff
+    projectPath: Temp/UnityTempFile-80690cc89db9c45d089af16d3a66c2ff
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-892c8cc8a8f27438f8828e9f43c768b1
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-892c8cc8a8f27438f8828e9f43c768b1
+    projectPath: Temp/UnityTempFile-892c8cc8a8f27438f8828e9f43c768b1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-89f66779c872043ef93bef5ed6c1b933
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-89f66779c872043ef93bef5ed6c1b933
+    projectPath: Temp/UnityTempFile-89f66779c872043ef93bef5ed6c1b933
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-c713ff38ae7414a70ab23b3d0f23e5a5
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-c713ff38ae7414a70ab23b3d0f23e5a5
+    projectPath: Temp/UnityTempFile-c713ff38ae7414a70ab23b3d0f23e5a5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-ea8611ddadb2e4bd8a1a4f3cf595648e
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-ea8611ddadb2e4bd8a1a4f3cf595648e
+    projectPath: Temp/UnityTempFile-ea8611ddadb2e4bd8a1a4f3cf595648e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-eb3b39d25577b4348aba8268da19b982
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-eb3b39d25577b4348aba8268da19b982
+    projectPath: Temp/UnityTempFile-eb3b39d25577b4348aba8268da19b982
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-f3d8e6dd1e767433b9e0488e0cecdc5a
+    fullPath: /Users/mateo/Desktop/Navigation/Temp/UnityTempFile-f3d8e6dd1e767433b9e0488e0cecdc5a
+    projectPath: Temp/UnityTempFile-f3d8e6dd1e767433b9e0488e0cecdc5a
     originalPath: 
     status: 1
     staged: 0

@@ -42,10 +42,9 @@ public class EnemyMovement : MonoBehaviour
             {
                 destination = target.position;
                 enemy.destination = destination;
-                Quaternion newDirection = Quaternion.LookRotation(destination);
-                transform.rotation = Quaternion.Slerp(transform.rotation, newDirection, Time.deltaTime * rotationSpeed1);
                 animator1.SetFloat("Speed", destination.magnitude);
             }
+           
         }
     }
 
