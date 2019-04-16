@@ -1,5 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
+using Unity.Collections;
+using Unity.Jobs;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -11,6 +15,7 @@ public class ShooterEnemy : MonoBehaviour
     public Transform firePoint;
     public Transform rayPoint;
     public Transform tracePoint;
+    public Transform exitPoint;
     public GameObject bullet;
     public int fireSpeed;
     NavMeshAgent navAgent;
@@ -21,6 +26,8 @@ public class ShooterEnemy : MonoBehaviour
     SphereCollider sphere;
     bool playerSpotted;
     bool playerInLineOfSight;
+    bool isShooting;
+    bool playerBehindWall;
 
 
     public NavMeshAgent NavAgent
@@ -53,13 +60,24 @@ public class ShooterEnemy : MonoBehaviour
         set { playerInLineOfSight = value; }
     }
 
+    public bool IsShooting
+    {
+        get { return isShooting; }
+        set { isShooting = value; }
+    }
+    public bool PlayerBehindWall
+    {
+        get { return playerBehindWall; }
+        set { playerBehindWall = value; }
+    }
+
     void Start()
     {
         agent = this.gameObject;
-        navAgent = GetComponent<NavMeshAgent>();
+
         bb.put("Player", player);
         bb.put("Agent", this.gameObject);
-        chp = new Chase(bb);
+        chp = new ChaseHelpPatrol(bb);
         animator = GetComponentInChildren<Animator>();
         sphere = agent.GetComponent<SphereCollider>();
     }
@@ -67,11 +85,13 @@ public class ShooterEnemy : MonoBehaviour
     void Awake()
     {
         animator = GetComponentInChildren<Animator>();
+        navAgent = GetComponent<NavMeshAgent>();
     }
 
     void Update()
     {
         chp.Execute();
+        animator.SetFloat("Speed", navAgent.velocity.magnitude);
     }
 
     void OnTriggerStay(Collider col)
@@ -80,28 +100,79 @@ public class ShooterEnemy : MonoBehaviour
         {
             Vector3 dir = player.transform.position - agent.transform.position;
             float a = Vector3.Angle(dir, agent.transform.forward);
-            Debug.DrawRay(tracePoint.position, agent.transform.forward * 8, Color.green, 2f);
-            Debug.DrawRay(tracePoint.position, dir * 8, Color.green, 2f);
-            // Angle between agent forward and player is < 55
+            //Debug.DrawRay(tracePoint.position, agent.transform.forward * 8, Color.green, 2f);
+            //Debug.DrawRay(tracePoint.position, dir * 8, Color.green, 2f);
+
+            RaycastHit hit0;
+
+
+            // Angle between agent forward and player is < 90
             if (a < 90)
             {
+                Debug.Log("< 90");
                 RaycastHit hit;
-                Ray ray = new Ray(agent.transform.position + agent.transform.up, dir.normalized);
+                Vector3 v = new Vector3(0, 1f, 0);
+                Ray ray = new Ray(rayPoint.position, dir.normalized);
+                Debug.DrawRay(rayPoint.position, dir.normalized * 8, Color.red, 2f);
+                //Physics.Raycast(ray0, out hit0, sphere.radius);
                 // Player is not behind a wall
                 if (Physics.Raycast(ray, out hit, sphere.radius))
                 {
-                    playerInLineOfSight = false;
+
+                    //Debug.Log("SHOOTING RAY");
                     if (hit.collider.gameObject == player)
                     {
+                        playerBehindWall = false;
+                        Debug.Log("HIT PLAYER");
+                        Debug.Log(a);
                         playerSpotted = true;
-
-                        if (a < 0.5f)
+                        if (a < 1f)
                         {
+                            Debug.Log("< 0.5");
                             playerInLineOfSight = true;
                         }
-                     }
+                        else
+                        {
+                            Debug.Log("FAIL 1");
+                            playerInLineOfSight = false;
+                        }
+                        //Ray ray0 = new Ray(exitPoint.position, exitPoint.forward.normalized);
+                        //if (Physics.Raycast(ray0, out hit0, sphere.radius))
+                        //{
+                        //    Debug.DrawRay(exitPoint.position, exitPoint.forward * 8, Color.green, 2f);
+                        //    if (hit0.collider.gameObject == player)
+                        //    {
+                        //        playerInLineOfSight = true;
+                        //    }
+                        //    else
+                        //    {
+                        //        Debug.Log("FAIL 1");
+                        //        playerInLineOfSight = false;
+                        //    }
+                        //}
+                    }
+                    else
+                    {
+                        Debug.Log("FAIL 5");
+                        playerBehindWall = true;
+                    }
+                    //else if (hit0.collider.gameObject == player)
+                    //{
+                    //    playerInLineOfSight = true;
+                    //}
+                    //else
+                    //{
+                    //    Debug.Log("FAIL 2");
+                    //    playerInLineOfSight = false;
+                    //}
                 }
+               
+
             }
+            //else
+            //{
+            //    playerInLineOfSight = false;
+            //}
         }
     }
 
@@ -183,26 +254,33 @@ class LineAndShoot : Sequence
 class Help : Task
 {
     GameObject agent;
+    ShooterEnemy agentClass;
 
     public Help(Blackboard bb)
     {
         this.blackboard = bb;
         agent = (GameObject)this.blackboard.get("Agent");
+        agentClass = agent.GetComponent<ShooterEnemy>();
     }
 
     public override bool Execute()
     {
         Collider[] hitColliders = Physics.OverlapSphere(agent.transform.position, 10);
 
+        if (agentClass.InChase)
+        {
+            return false;
+        }
         foreach (Collider c in hitColliders)
         {
-            if (c.gameObject.tag == "enemy")
+            if (c.gameObject.tag == "enemy" && !c.gameObject.Equals(agent.gameObject))
             {
-                GameObject ally = c.gameObject;
-                ShooterEnemy a = ally.GetComponent<ShooterEnemy>();
-                if (a.InChase)
+                ShooterEnemy ally = c.gameObject.GetComponent<ShooterEnemy>();
+                if (ally.InChase)
                 {
-                    a.NavAgent.destination = agent.transform.position;
+                    Debug.Log("HELPING");
+                    agentClass.NavAgent.destination = ally.transform.position;
+                    return true;
                 }
             }
         }
@@ -236,7 +314,9 @@ class Patrol : Task
 
         // Choose the next destination point when the agent gets
         // close to the current one.
-        if (!navAgent.pathPending && navAgent.remainingDistance <= navAgent.stoppingDistance)
+        if (!navAgent.pathPending
+        && navAgent.remainingDistance <= navAgent.stoppingDistance
+            && !agentClass.PlayerSpotted)
         {
             GotoNextPoint();
             return true;
@@ -287,6 +367,7 @@ class IsWithinRange : Task
 
     public override bool Execute()
     {
+        Debug.Log("IN RANGE");
         if (!playerClass.isDead && player != null)
         {
             //RaycastHit hit;
@@ -351,8 +432,6 @@ class Chase : Task
     NavMeshAgent navAgent;
     Animator animator;
     Transform playerTransform;
-    float time = 0f;
-    float timeToCheck = 1f;
 
     public Chase(Blackboard bb)
     {
@@ -367,22 +446,32 @@ class Chase : Task
 
     public override bool Execute()
     {
-        float dist = Vector2.Distance(destination, playerTransform.position);
-        Debug.DrawRay(agent.transform.position, agent.transform.forward * dist, Color.white, 2f);
-        float d = navAgent.stoppingDistance;
+        Debug.Log("CHASING");
+
         if (playerTransform == null)
         {
             return false;
         }
-        time += Time.deltaTime;
-        if (dist>d)
+
+        if (agentClass.PlayerBehindWall || !agentClass.PlayerInLineOfSight)
         {
+            navAgent.stoppingDistance = 2.5f;
+        }
+        else
+        {
+            navAgent.stoppingDistance = 4.0f;
+        }
+
+        Vector3 a = navAgent.pathEndPosition - playerTransform.position;
+        bool largeRange = a.magnitude > navAgent.stoppingDistance;
+        if ((navAgent.velocity.magnitude < 1 && largeRange) || !agentClass.InChase)
+        {
+            Debug.Log("CALC PATH");
             destination = playerTransform.position;
             navAgent.destination = destination;
-            time = 0f;
+
         }
         animator.SetBool("isFiring", false);
-        animator.SetFloat("Speed", navAgent.velocity.magnitude);
         agentClass.InChase = true;
 
         return true;
@@ -396,6 +485,7 @@ class Aim : Task
     ShooterEnemy agentClass;
     NavMeshAgent navAgent;
     Player playerClass;
+    float r = 0;
 
     public Aim(Blackboard bb)
     {
@@ -407,19 +497,96 @@ class Aim : Task
         playerClass = player.GetComponent<Player>();
     }
 
+    //public override bool Execute()
+    //{
+    //    Debug.Log("AIMING");
+    //    float dist = Vector3.Distance(agent.transform.position, player.transform.position);
+    //    bool isStopped = navAgent.velocity.magnitude <= 3f;
+
+    //    if (!playerClass.isDead && isStopped)
+    //    {
+    //        agent.transform.LookAt(player.transform);
+    //        return true;
+    //    }
+    //    //Debug.DrawLine(agent.transform.position, agent.transform.right * 10, Color.blue, 2f);
+    //    return false;
+    //}
+
     public override bool Execute()
     {
+        //const float MAX_ROTATION = ((float)Math.PI) / 20; ;
+        //const float MAX_ACCEL = ((float)Math.PI) / 30;
+        //const float TARGET_RAD = 0.5f;
+        //const float SLOW_RAD = 2f;
 
-        float dist = Vector3.Distance(agent.transform.position, player.transform.position);
-        bool isStopped = navAgent.velocity.magnitude <= 3f;
+        //Debug.Log("AIMING");
+        //if (playerClass.isDead == null)
+        //{
+        //    return false;
+        //}
+        //float playerOrientation = player.transform.rotation.eulerAngles.y;
+        //float agentOrientation = agent.transform.rotation.eulerAngles.y;
+        //float rotation = playerOrientation - agent.transform.rotation.y;
 
-        if (!playerClass.isDead && isStopped)
+        //rotation = MapToRange(rotation);
+        //float rotationSize = Mathf.Abs(rotation);
+
+        //float targetRotation;
+        //if (rotationSize < TARGET_RAD)
+        //{
+        //    return false;
+        //}
+        //if (rotationSize > SLOW_RAD)
+        //{
+        //    targetRotation = MAX_ROTATION;
+        //}
+        //else
+        //{
+        //    targetRotation = MAX_ROTATION * rotationSize / SLOW_RAD;
+        //}
+
+        //targetRotation *= rotation / rotationSize;
+
+        //float steering = targetRotation - agent.transform.rotation.y;
+
+        //float angularAccel = Mathf.Abs(steering);
+        //if (angularAccel > MAX_ACCEL)
+        //{
+        //    steering /= angularAccel;
+        //    steering *= MAX_ACCEL;
+        //}
+
+        //r += steering;
+        ////agent.transform.rotation.eulerAngles.Set += r;
+
+        //agent.transform.forward.Set(0, steering, 0);
+        ////agent.transform.Rotate(Vector3.up, r);
+        ////agent.transform.rotation += r;
+
+        ////Quaternion newDirection = Quaternion.LookRotation(movement);
+        ////agent.transform.rotation = Quaternion.Slerp(agent.transform.rotation, newDirection, steering);
+        Debug.Log("AIM");
+        if (!playerClass.isDead && !agentClass.PlayerBehindWall)
         {
-            agent.transform.LookAt(player.transform);
+            Vector3 d = (player.transform.position - agent.transform.position).normalized;
+            Quaternion newDirection = Quaternion.LookRotation(d);
+            agent.transform.rotation = Quaternion.Slerp(agent.transform.rotation, newDirection, 10f * Time.deltaTime);
             return true;
         }
-        //Debug.DrawLine(agent.transform.position, agent.transform.right * 10, Color.blue, 2f);
         return false;
+    }
+
+    float MapToRange(float rotation)
+    {
+        rotation %= 360.0f;
+        if (Mathf.Abs(rotation) > 180.0f)
+        {
+            if (rotation < 0.0f)
+                rotation += 360.0f;
+            else
+                rotation -= 360.0f;
+        }
+        return rotation;
     }
 }
 
@@ -433,6 +600,7 @@ class Shoot : Task
 
     public Shoot(Blackboard bb)
     {
+        Debug.Log("SHOOTING");
         this.blackboard = bb;
         agent = (GameObject)this.blackboard.get("Agent");
         agentClass = agent.GetComponent<ShooterEnemy>();
@@ -443,13 +611,74 @@ class Shoot : Task
 
     public override bool Execute()
     {
-        //navAgent.isStopped = true;
+        //NativeArray<int> result = new NativeArray<int>(1, Allocator.TempJob);
+
+        //// Set up the job data
+        //ShootStruct jobData = new ShootStruct();
+        //jobData.agentClass = agentClass;
+        //jobData.agent = agent;
+        //jobData.firePoint = firePoint;
+        //jobData.navAgent = navAgent;
+        //jobData.animator = animator;
+
+
+        //jobData.result = result;
+
+        //// Schedule the job
+        //JobHandle handle = jobData.Schedule();
+
+        //// Wait for the job to complete
+        //handle.Complete();
+
+        //// All copies of the NativeArray point to the same memory, you can access the result in "your" copy of the NativeArray
+        ////int res = result[0];
+
+        //// Free the memory allocated by the result array
+
+
+        //if (result[0] == 1)
+        //{
+        //    result.Dispose();
+        //    return true;
+        //}
+        //else
+        //{
+        //    result.Dispose();
+        //    return false;
+        //}
+        Fire();
+        return true;
+    }
+
+    void Fire()
+    {
+        agentClass.IsShooting = true;
         GameObject instBullet = GameObject.Instantiate(agentClass.bullet, firePoint.position, firePoint.rotation) as GameObject;
         Rigidbody instBulletRigidbody = instBullet.GetComponent<Rigidbody>();
         instBulletRigidbody.AddForce(firePoint.forward * agentClass.fireSpeed);
         MonoBehaviour.Destroy(instBullet, 0.5f);
         animator.SetBool("isFiring", true);
-        return true;
+    }
+}
+
+public struct ShootStruct : IJob
+{
+    public GameObject agent;
+    public ShooterEnemy agentClass;
+    public NavMeshAgent navAgent;
+    public Transform firePoint;
+    public Animator animator;
+    public NativeArray<int> result;
+
+    public void Execute()
+    {
+        agentClass.IsShooting = true;
+        GameObject instBullet = GameObject.Instantiate(agentClass.bullet, firePoint.position, firePoint.rotation) as GameObject;
+        Rigidbody instBulletRigidbody = instBullet.GetComponent<Rigidbody>();
+        instBulletRigidbody.AddForce(firePoint.forward * agentClass.fireSpeed);
+        MonoBehaviour.Destroy(instBullet, 0.5f);
+        animator.SetBool("isFiring", true);
+        result[0] = 1;
     }
 }
 
@@ -458,6 +687,7 @@ class InLineOfSight : Task
     GameObject player;
     GameObject agent;
     ShooterEnemy agentClass;
+    NavMeshAgent navAgent;
     Transform rayPoint;
     Transform firePoint;
 
@@ -467,12 +697,14 @@ class InLineOfSight : Task
         agent = (GameObject)this.blackboard.get("Agent");
         player = (GameObject)this.blackboard.get("Player");
         agentClass = agent.GetComponent<ShooterEnemy>();
+        navAgent = agentClass.NavAgent;
         rayPoint = agentClass.rayPoint;
         firePoint = agentClass.firePoint;
     }
 
     public override bool Execute()
     {
+        Debug.Log("LINE OF SIGHT");
         //RaycastHit hit;
         //Ray ray = new Ray(rayPoint.position, rayPoint.forward);
 
@@ -489,6 +721,8 @@ class InLineOfSight : Task
         {
             return true;
         }
+        agentClass.IsShooting = false;
+        //navAgent.stoppingDistance = 2.5f;
         return false;
     }
 }
@@ -501,19 +735,19 @@ abstract class Task
 
 class Blackboard
 {
-    Dictionary<string, Object> dict;
+    Dictionary<string, UnityEngine.Object> dict;
 
     public Blackboard()
     {
-        dict = new Dictionary<string, Object>();
+        dict = new Dictionary<string, UnityEngine.Object>();
     }
 
-    public Object get(string key)
+    public UnityEngine.Object get(string key)
     {
         return dict[key];
     }
 
-    public void put(string key, Object val)
+    public void put(string key, UnityEngine.Object val)
     {
         dict[key] = val;
     }
