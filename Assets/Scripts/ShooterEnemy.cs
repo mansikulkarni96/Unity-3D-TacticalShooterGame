@@ -1,4 +1,9 @@
-﻿using System;
+﻿// Behavior tree implementation follows methods learned in class
+
+// Unity navmesh implementation as well as navmesh agent behavior was learned from
+// watching Brackeys on YouTube
+// https://www.youtube.com/watch?v=CHV1ymlw-P8&t=407s
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;

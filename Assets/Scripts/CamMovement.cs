@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿// Camera movement to follow player was learned from YouTube tutorial
+// https://www.youtube.com/watch?v=MFQhpwc6cKE&t=3s
+using UnityEngine;
 
 public class CamMovement : MonoBehaviour
 {

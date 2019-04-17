@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿// Player behavior was learned through watching several tutorials on YouTube
+// https://www.youtube.com/watch?v=sLAyey2WDyc&list=PLB5_EOMkLx_Wa0sRby_krVpglLS7IYH3_
+
+// For firing bullets: 
+// https://www.youtube.com/watch?v=THnivyG0Mvo&t=230s
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 

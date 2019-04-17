@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿// Implemented using Artifical Intelligence for Games book
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
