@@ -7,8 +7,9 @@ using Unity.Jobs;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class ShooterEnemy : MonoBehaviour
+public class ShooterEnemy : Agent
 {
+    const int MAX_HEALTH = 1000;
     public GameObject player;
     public GameObject agent;
     public Transform[] points;
@@ -29,6 +30,8 @@ public class ShooterEnemy : MonoBehaviour
     bool isShooting;
     bool playerBehindWall;
 
+    AudioSource source;
+    public AudioClip fireSound;
 
     public NavMeshAgent NavAgent
     {
@@ -73,12 +76,11 @@ public class ShooterEnemy : MonoBehaviour
 
     void Start()
     {
+        currentHealth = MAX_HEALTH;
         agent = this.gameObject;
-
         bb.put("Player", player);
         bb.put("Agent", this.gameObject);
         chp = new ChaseHelpPatrol(bb);
-        animator = GetComponentInChildren<Animator>();
         sphere = agent.GetComponent<SphereCollider>();
     }
 
@@ -86,12 +88,20 @@ public class ShooterEnemy : MonoBehaviour
     {
         animator = GetComponentInChildren<Animator>();
         navAgent = GetComponent<NavMeshAgent>();
+        source = GetComponent<AudioSource>();
     }
 
     void Update()
     {
-        chp.Execute();
-        animator.SetFloat("Speed", navAgent.velocity.magnitude);
+        if (isShooting)
+        {
+            StartCoroutine("playAudio");
+        }
+        if (!isDead)
+        {
+            chp.Execute();
+            animator.SetFloat("Speed", navAgent.velocity.magnitude);
+        }
     }
 
     void OnTriggerStay(Collider col)
@@ -100,8 +110,6 @@ public class ShooterEnemy : MonoBehaviour
         {
             Vector3 dir = player.transform.position - agent.transform.position;
             float a = Vector3.Angle(dir, agent.transform.forward);
-            //Debug.DrawRay(tracePoint.position, agent.transform.forward * 8, Color.green, 2f);
-            //Debug.DrawRay(tracePoint.position, dir * 8, Color.green, 2f);
 
             RaycastHit hit0;
 
@@ -114,7 +122,7 @@ public class ShooterEnemy : MonoBehaviour
                 Vector3 v = new Vector3(0, 1f, 0);
                 Ray ray = new Ray(rayPoint.position, dir.normalized);
                 Debug.DrawRay(rayPoint.position, dir.normalized * 8, Color.red, 2f);
-                //Physics.Raycast(ray0, out hit0, sphere.radius);
+ 
                 // Player is not behind a wall
                 if (Physics.Raycast(ray, out hit, sphere.radius))
                 {
@@ -123,56 +131,22 @@ public class ShooterEnemy : MonoBehaviour
                     if (hit.collider.gameObject == player)
                     {
                         playerBehindWall = false;
-                        Debug.Log("HIT PLAYER");
-                        Debug.Log(a);
                         playerSpotted = true;
                         if (a < 1f)
                         {
-                            Debug.Log("< 0.5");
                             playerInLineOfSight = true;
                         }
                         else
                         {
-                            Debug.Log("FAIL 1");
                             playerInLineOfSight = false;
                         }
-                        //Ray ray0 = new Ray(exitPoint.position, exitPoint.forward.normalized);
-                        //if (Physics.Raycast(ray0, out hit0, sphere.radius))
-                        //{
-                        //    Debug.DrawRay(exitPoint.position, exitPoint.forward * 8, Color.green, 2f);
-                        //    if (hit0.collider.gameObject == player)
-                        //    {
-                        //        playerInLineOfSight = true;
-                        //    }
-                        //    else
-                        //    {
-                        //        Debug.Log("FAIL 1");
-                        //        playerInLineOfSight = false;
-                        //    }
-                        //}
                     }
                     else
                     {
-                        Debug.Log("FAIL 5");
                         playerBehindWall = true;
                     }
-                    //else if (hit0.collider.gameObject == player)
-                    //{
-                    //    playerInLineOfSight = true;
-                    //}
-                    //else
-                    //{
-                    //    Debug.Log("FAIL 2");
-                    //    playerInLineOfSight = false;
-                    //}
                 }
-               
-
             }
-            //else
-            //{
-            //    playerInLineOfSight = false;
-            //}
         }
     }
 
@@ -183,6 +157,23 @@ public class ShooterEnemy : MonoBehaviour
             playerSpotted = false;
             playerInLineOfSight = false;
         }
+    }
+
+    public override void CheckHealth()
+    {
+        if (currentHealth <= 0 && !isDead)
+        {
+            isDead = true;
+            animator.SetTrigger("isDead");
+        }
+    }
+
+    // Co-routine used to play sound in parallel with shooting
+    IEnumerator playAudio()
+    {
+        source.PlayOneShot(fireSound);
+        yield return new WaitForSeconds(.3f);
+
     }
 }
 
@@ -367,30 +358,8 @@ class IsWithinRange : Task
 
     public override bool Execute()
     {
-        Debug.Log("IN RANGE");
         if (!playerClass.isDead && player != null)
         {
-            //RaycastHit hit;
-            //float d = Vector3.Distance(playerTransform.position, agentTransform.position);
-
-            //if(d <= 8)
-            //{
-
-            //    tracePoint.LookAt(playerTransform);
-            //    Ray ray = new Ray(tracePoint.position, tracePoint.forward.normalized);
-
-            //    if (Physics.Raycast(ray, out hit, 100))
-            //    {
-            //        Debug.Log(hit.collider.tag);
-            //        if (hit.collider.tag == "Player")
-            //        {
-            //            agentNav.path = null;
-            //            Debug.DrawRay(tracePoint.position, tracePoint.forward * 8, Color.green, 2f);
-            //            return true;
-            //        }
-
-            //    }
-            //}
             if (agentClass.PlayerSpotted)
             {
                 return true;
@@ -399,28 +368,6 @@ class IsWithinRange : Task
         agentClass.InChase = false;
         return false;
     }
-
-    //void OnTriggerStay(Collider col)
-    //{
-    //    if (col.gameObject == player)
-    //    {
-    //        Vector3 dir = player.transform.position - agent.transform.position;
-    //        float a = Vector3.Angle(dir, agent.transform.forward);
-    //        Debug.DrawRay(tracePoint.position, tracePoint.forward * 8, Color.green, 2f);
-    //        if (a < 55)
-    //        {
-    //            RaycastHit hit;
-    //            Ray ray = new Ray(agentTransform.position + agentTransform.up, dir.normalized);
-    //            if (Physics.Raycast(ray, out hit,  sphere.radius))
-    //            {
-    //                if (hit.collider.gameObject == player)
-    //                {
-    //                    playerSpotted = true;
-    //                }
-    //            }
-    //        }
-    //    }
-    //}
 }
 
 class Chase : Task
@@ -497,75 +444,8 @@ class Aim : Task
         playerClass = player.GetComponent<Player>();
     }
 
-    //public override bool Execute()
-    //{
-    //    Debug.Log("AIMING");
-    //    float dist = Vector3.Distance(agent.transform.position, player.transform.position);
-    //    bool isStopped = navAgent.velocity.magnitude <= 3f;
-
-    //    if (!playerClass.isDead && isStopped)
-    //    {
-    //        agent.transform.LookAt(player.transform);
-    //        return true;
-    //    }
-    //    //Debug.DrawLine(agent.transform.position, agent.transform.right * 10, Color.blue, 2f);
-    //    return false;
-    //}
-
     public override bool Execute()
     {
-        //const float MAX_ROTATION = ((float)Math.PI) / 20; ;
-        //const float MAX_ACCEL = ((float)Math.PI) / 30;
-        //const float TARGET_RAD = 0.5f;
-        //const float SLOW_RAD = 2f;
-
-        //Debug.Log("AIMING");
-        //if (playerClass.isDead == null)
-        //{
-        //    return false;
-        //}
-        //float playerOrientation = player.transform.rotation.eulerAngles.y;
-        //float agentOrientation = agent.transform.rotation.eulerAngles.y;
-        //float rotation = playerOrientation - agent.transform.rotation.y;
-
-        //rotation = MapToRange(rotation);
-        //float rotationSize = Mathf.Abs(rotation);
-
-        //float targetRotation;
-        //if (rotationSize < TARGET_RAD)
-        //{
-        //    return false;
-        //}
-        //if (rotationSize > SLOW_RAD)
-        //{
-        //    targetRotation = MAX_ROTATION;
-        //}
-        //else
-        //{
-        //    targetRotation = MAX_ROTATION * rotationSize / SLOW_RAD;
-        //}
-
-        //targetRotation *= rotation / rotationSize;
-
-        //float steering = targetRotation - agent.transform.rotation.y;
-
-        //float angularAccel = Mathf.Abs(steering);
-        //if (angularAccel > MAX_ACCEL)
-        //{
-        //    steering /= angularAccel;
-        //    steering *= MAX_ACCEL;
-        //}
-
-        //r += steering;
-        ////agent.transform.rotation.eulerAngles.Set += r;
-
-        //agent.transform.forward.Set(0, steering, 0);
-        ////agent.transform.Rotate(Vector3.up, r);
-        ////agent.transform.rotation += r;
-
-        ////Quaternion newDirection = Quaternion.LookRotation(movement);
-        ////agent.transform.rotation = Quaternion.Slerp(agent.transform.rotation, newDirection, steering);
-        Debug.Log("AIM");
         if (!playerClass.isDead && !agentClass.PlayerBehindWall)
         {
             Vector3 d = (player.transform.position - agent.transform.position).normalized;
@@ -611,74 +491,14 @@ class Shoot : Task
 
     public override bool Execute()
     {
-        //NativeArray<int> result = new NativeArray<int>(1, Allocator.TempJob);
 
-        //// Set up the job data
-        //ShootStruct jobData = new ShootStruct();
-        //jobData.agentClass = agentClass;
-        //jobData.agent = agent;
-        //jobData.firePoint = firePoint;
-        //jobData.navAgent = navAgent;
-        //jobData.animator = animator;
-
-
-        //jobData.result = result;
-
-        //// Schedule the job
-        //JobHandle handle = jobData.Schedule();
-
-        //// Wait for the job to complete
-        //handle.Complete();
-
-        //// All copies of the NativeArray point to the same memory, you can access the result in "your" copy of the NativeArray
-        ////int res = result[0];
-
-        //// Free the memory allocated by the result array
-
-
-        //if (result[0] == 1)
-        //{
-        //    result.Dispose();
-        //    return true;
-        //}
-        //else
-        //{
-        //    result.Dispose();
-        //    return false;
-        //}
-        Fire();
+        agentClass.IsShooting = true;
+        GameObject instBullet = GameObject.Instantiate(agentClass.bullet, firePoint.position, firePoint.rotation) as GameObject;
+        Rigidbody instBulletRigidbody = instBullet.GetComponent<Rigidbody>();
+        instBulletRigidbody.AddForce(firePoint.forward * agentClass.fireSpeed);
+        MonoBehaviour.Destroy(instBullet, 0.5f);
+        animator.SetBool("isFiring", true);
         return true;
-    }
-
-    void Fire()
-    {
-        agentClass.IsShooting = true;
-        GameObject instBullet = GameObject.Instantiate(agentClass.bullet, firePoint.position, firePoint.rotation) as GameObject;
-        Rigidbody instBulletRigidbody = instBullet.GetComponent<Rigidbody>();
-        instBulletRigidbody.AddForce(firePoint.forward * agentClass.fireSpeed);
-        MonoBehaviour.Destroy(instBullet, 0.5f);
-        animator.SetBool("isFiring", true);
-    }
-}
-
-public struct ShootStruct : IJob
-{
-    public GameObject agent;
-    public ShooterEnemy agentClass;
-    public NavMeshAgent navAgent;
-    public Transform firePoint;
-    public Animator animator;
-    public NativeArray<int> result;
-
-    public void Execute()
-    {
-        agentClass.IsShooting = true;
-        GameObject instBullet = GameObject.Instantiate(agentClass.bullet, firePoint.position, firePoint.rotation) as GameObject;
-        Rigidbody instBulletRigidbody = instBullet.GetComponent<Rigidbody>();
-        instBulletRigidbody.AddForce(firePoint.forward * agentClass.fireSpeed);
-        MonoBehaviour.Destroy(instBullet, 0.5f);
-        animator.SetBool("isFiring", true);
-        result[0] = 1;
     }
 }
 
@@ -704,25 +524,11 @@ class InLineOfSight : Task
 
     public override bool Execute()
     {
-        Debug.Log("LINE OF SIGHT");
-        //RaycastHit hit;
-        //Ray ray = new Ray(rayPoint.position, rayPoint.forward);
-
-
-        //if (Physics.Raycast(ray, out hit, 6))
-        //{
-        //    if (hit.collider.tag == player.tag)
-        //    {
-        //        Debug.DrawRay(rayPoint.position, rayPoint.forward * 10, Color.red, 2f);
-        //        return true;
-        //    }
-        //}
         if (agentClass.PlayerInLineOfSight)
         {
             return true;
         }
         agentClass.IsShooting = false;
-        //navAgent.stoppingDistance = 2.5f;
         return false;
     }
 }

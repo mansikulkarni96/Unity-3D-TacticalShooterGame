@@ -7,7 +7,6 @@ using UnityEditor;
 public class Trap : MonoBehaviour
 {
     public GameObject explosion;
-    public GameObject sphere;
     public int damage = 300;
 
     private void OnTriggerEnter(Collider col)
@@ -17,7 +16,7 @@ public class Trap : MonoBehaviour
         {
             target.ApplyDamage(damage);
             Explode();
-            NavMesh.SetAreaCost(NavMesh.GetAreaFromName(this.tag), 0);
+            NavMesh.SetAreaCost(NavMesh.GetAreaFromName(this.tag), 1);
         }  
     }
 

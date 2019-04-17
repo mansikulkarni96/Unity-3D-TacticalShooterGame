@@ -1,9 +1,10 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class Player : Agent
 {
-    const int MAX_HEALTH = 1000000;
+    const int MAX_HEALTH = 10000;
 
     CharacterController characterController;
     Animator animator;
@@ -19,6 +20,9 @@ public class Player : Agent
     public Slider healthBar;
     public Text healthText;
 
+    AudioSource source;
+    public AudioClip fireSound;
+
     void Start()
     {
         currentHealth = MAX_HEALTH;
@@ -33,12 +37,17 @@ public class Player : Agent
     {
         characterController = GetComponent<CharacterController>();
         animator = GetComponentInChildren<Animator>();
+        source = GetComponent<AudioSource>();
     }
 
     void Update()
     {
         Move();
         Shoot();
+        if (isFiring)
+        {
+            StartCoroutine("playAudio");
+        }
     }
 
     void Move()
@@ -95,4 +104,14 @@ public class Player : Agent
             Destroy(this.gameObject);
         }
     }
+
+
+    IEnumerator playAudio()
+    {
+        source.PlayOneShot(fireSound);
+        yield return new WaitForSeconds(.3f);
+
+    }
 }
+
+

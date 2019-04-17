@@ -14,6 +14,8 @@ TagManager:
   - trap5
   - trap6
   - trap7
+  - Spider
+  - TeleportPosition
   layers:
   - Default
   - TransparentFX

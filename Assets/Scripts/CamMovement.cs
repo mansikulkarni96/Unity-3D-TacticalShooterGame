@@ -8,6 +8,12 @@ public class CamMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (player.position.z < -50)
+        {
+            offset.y = 9;
+            offset.z = -16;
+            transform.rotation = Quaternion.Euler(22,0,0);
+        }
         Vector3 desiredPosition = player.position + offset;
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, speed * Time.deltaTime);
         transform.position = smoothedPosition;
