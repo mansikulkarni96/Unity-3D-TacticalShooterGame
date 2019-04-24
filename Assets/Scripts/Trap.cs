@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
+using UnityEditor;
 
 public class Trap : MonoBehaviour
 {
@@ -9,15 +11,13 @@ public class Trap : MonoBehaviour
 
     private void OnTriggerEnter(Collider col)
     {
-        if (col.tag == "Player")
+        Agent target = col.transform.gameObject.GetComponent<Agent>();
+        if (target != null)
         {
-            PlayerMovement target = col.transform.gameObject.GetComponent<PlayerMovement>();
-            if (target != null)
-            {
-                target.ApplyDamage(col, damage);
-                Explode();
-            }
-        }
+            target.ApplyDamage(damage);
+            Explode();
+            NavMesh.SetAreaCost(NavMesh.GetAreaFromName(this.tag), 1);
+        }  
     }
 
     private void Explode()

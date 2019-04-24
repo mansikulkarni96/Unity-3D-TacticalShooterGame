@@ -4,52 +4,15 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
-    public float damage = 25f;
-    public bool hasHit = false;
-    public bool hasShoot = false;
-    public float health = 100;
-
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    public int damage = 25;
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "enemy" && hasHit == false)
+        Agent target = collision.transform.gameObject.GetComponent<Agent>();
+        if (target != null)
         {
-            EnemyMovement enemyTarget = collision.transform.gameObject.GetComponent<EnemyMovement>();
-            NewEnemyScript enemyTargetNew = collision.transform.gameObject.GetComponent<NewEnemyScript>();
-
-
-            if (enemyTarget != null)
-            {
-                hasHit = true;
-                enemyTarget.ApplyDamage(collision);
-
-            }
-            if (enemyTargetNew != null)
-            {
-                hasHit = true;
-                enemyTargetNew.ApplyDamageCollision(collision);
-            }
-        }
-        if(collision.gameObject.tag == "Player" || hasShoot == false)
-        { 
-            PlayerMovement playerTarget = collision.transform.gameObject.GetComponent<PlayerMovement>();
-        if ( playerTarget != null)
-            {
-                hasShoot = true;
-                playerTarget.ApplyDamageCollision(collision);
-
-            }
+            target.ApplyDamage(damage);
+            Destroy(this.gameObject);
         }
     }
 }
